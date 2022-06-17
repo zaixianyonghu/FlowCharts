@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-17T06:33:03.773Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="xRs59m1qaBk58asoG74K" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-17T09:20:47.579Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="JewW1ATGLEl6CnNOah3t" version="20.0.1" type="github">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="第 1 页">
     <mxGraphModel dx="1527" dy="2121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -615,25 +615,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-253" value="new" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="160" y="1180" width="110" height="30" as="geometry" />
+          <mxGeometry x="160" y="1770" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-255" value="duplicate" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="160" y="1230" width="110" height="30" as="geometry" />
+          <mxGeometry x="160" y="1820" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-269" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-257" target="3YaKURUqrE0tU1aqipD1-268">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-257" value="invokespecial" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="160" y="1280" width="110" height="30" as="geometry" />
+          <mxGeometry x="160" y="1870" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-258" value="return" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="160" y="1380" width="110" height="30" as="geometry" />
+          <mxGeometry x="160" y="1970" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-271" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-260" target="3YaKURUqrE0tU1aqipD1-270">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-260" value="astore_1" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="160" y="1330" width="110" height="30" as="geometry" />
+          <mxGeometry x="160" y="1920" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-262" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-252" target="3YaKURUqrE0tU1aqipD1-253">
           <mxGeometry relative="1" as="geometry" />
@@ -648,16 +648,49 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-252" value="对象的创建过程" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry y="1280" width="110" height="30" as="geometry" />
+          <mxGeometry y="1870" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-266" value="申请空间，设默认值" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1180" width="110" height="30" as="geometry" />
+          <mxGeometry x="350" y="1770" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-268" value="调构造方法设初始值" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1280" width="110" height="30" as="geometry" />
+          <mxGeometry x="350" y="1870" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-270" value="建立连接，对象引用和实例数据建立连接" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1325" width="140" height="40" as="geometry" />
+          <mxGeometry x="350" y="1915" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-274" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-272" target="3YaKURUqrE0tU1aqipD1-273">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-272" value="DCL(double ckeck lock)要不要加volatile" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry y="2090" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-273" value="单例恶汉模式，需要加DCL，需要禁止指令重排" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="330" y="2090" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-285" value="java内存结构" style="swimlane;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="47.5" y="1169" width="470" height="411" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-275" value="&lt;b&gt;堆&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="3YaKURUqrE0tU1aqipD1-285">
+          <mxGeometry x="30" y="61" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-278" value="线程隔离区域" style="swimlane;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="3YaKURUqrE0tU1aqipD1-285">
+          <mxGeometry x="240" y="60.5" width="200" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-281" value="&lt;b&gt;程序计数器&lt;/b&gt;&lt;br&gt;字节码的行号指示器，用来记录线程执行到了什么位置" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="3YaKURUqrE0tU1aqipD1-278">
+          <mxGeometry x="5" y="230" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-282" value="&lt;b&gt;栈&lt;/b&gt;&lt;br&gt;局部变量表&lt;br&gt;操作栈&lt;br&gt;动态链接&lt;br&gt;方法出口" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="3YaKURUqrE0tU1aqipD1-278">
+          <mxGeometry x="8" y="50" width="85" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-283" value="&lt;b&gt;本地方法栈&lt;/b&gt;&lt;br&gt;作用跟虚拟机栈相同，区别是用来执行本地方法，即jvm和操作系统打交道" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="3YaKURUqrE0tU1aqipD1-278">
+          <mxGeometry x="110" y="50" width="80" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-286" value="方法区&#xa;类的名称、方法信息、成员变量信息&#xa;常量、静态变量、&#xa;以及编译器编译后的代码等数据" style="swimlane;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;startSize=60;" vertex="1" parent="3YaKURUqrE0tU1aqipD1-285">
+          <mxGeometry x="14.5" y="231" width="213.5" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-287" value="运行时常量区" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="3YaKURUqrE0tU1aqipD1-286">
+          <mxGeometry x="50" y="74.25" width="121.5" height="30.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
