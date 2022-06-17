@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-17T02:50:57.600Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="x_iunrCKeQiuwV95awhX" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-17T02:58:49.195Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="-jGZ5zcifc4v_v8BRDxJ" version="20.0.1" type="github">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="第 1 页">
     <mxGraphModel dx="1527" dy="2121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -163,11 +163,16 @@
         <mxCell id="3YaKURUqrE0tU1aqipD1-13" value="标记清除" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="360" y="1300" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-58" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.474;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-22" target="3YaKURUqrE0tU1aqipD1-9">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="3YaKURUqrE0tU1aqipD1-58" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.474;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-22" target="3YaKURUqrE0tU1aqipD1-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="1240" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="840" y="1250" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-22" value="标记复制&lt;br&gt;用一部分空间放数据，一部分空闲，垃圾回收时把活着的对象放到空闲的地方" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="360" y="1210" width="225" height="60" as="geometry" />
+          <mxGeometry x="360" y="1230" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-28" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-23" target="5XQeHyZv0ZMQNhOZCaLZ-45">
           <mxGeometry relative="1" as="geometry">
