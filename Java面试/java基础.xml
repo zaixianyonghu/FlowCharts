@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T13:59:14.095Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="LHR4Cwi8SopF7qcYlFBo" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-17T02:47:14.961Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="AEzvuE_lMj6kNLXctoc2" version="20.0.1" type="github">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="第 1 页">
-    <mxGraphModel dx="1298" dy="1978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="1527" dy="2121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -142,6 +142,9 @@
         <mxCell id="5XQeHyZv0ZMQNhOZCaLZ-43" value="s1&lt;br&gt;1/10" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry x="790" y="1290" width="50" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-132" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="5XQeHyZv0ZMQNhOZCaLZ-45" target="3YaKURUqrE0tU1aqipD1-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5XQeHyZv0ZMQNhOZCaLZ-45" value="old" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
           <mxGeometry x="890" y="1290" width="360" height="60" as="geometry" />
         </mxCell>
@@ -158,13 +161,13 @@
           <mxGeometry x="840" y="1290" width="50" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-13" value="标记清除" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
-          <mxGeometry x="385" y="1300" width="120" height="30" as="geometry" />
+          <mxGeometry x="360" y="1300" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-58" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.474;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-22" target="3YaKURUqrE0tU1aqipD1-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-22" value="标记复制&lt;br&gt;用一部分空间放数据，一部分空闲，垃圾回收时把活着的对象放到空闲的地方" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="385" y="1210" width="225" height="60" as="geometry" />
+          <mxGeometry x="360" y="1210" width="225" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-28" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-23" target="5XQeHyZv0ZMQNhOZCaLZ-45">
           <mxGeometry relative="1" as="geometry">
@@ -172,7 +175,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-23" value="标记整理(压缩)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
-          <mxGeometry x="385" y="1360" width="125" height="30" as="geometry" />
+          <mxGeometry x="360" y="1360" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-30" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-29" target="3YaKURUqrE0tU1aqipD1-22">
           <mxGeometry relative="1" as="geometry" />
@@ -183,91 +186,35 @@
         <mxCell id="3YaKURUqrE0tU1aqipD1-32" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-29" target="3YaKURUqrE0tU1aqipD1-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-56" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-29" target="3YaKURUqrE0tU1aqipD1-45">
+        <mxCell id="3YaKURUqrE0tU1aqipD1-56" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5XQeHyZv0ZMQNhOZCaLZ-45" target="3YaKURUqrE0tU1aqipD1-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-29" value="垃圾回收算法" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="210" y="1310" width="120" height="30" as="geometry" />
+          <mxGeometry x="180" y="1300" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-45" value="&lt;div&gt;&lt;b&gt;对象生命周期&lt;/b&gt;&lt;/div&gt;&lt;div&gt;对象分配时优先进入eden&lt;/div&gt;&lt;div&gt;第一次垃圾回收时进入s1，年龄+1&lt;/div&gt;&lt;div&gt;第二次垃圾回收，跟eden中活着的对象一起进入s2，年龄+1&lt;/div&gt;&lt;div&gt;第三次垃圾回收，跟eden中或者的对象一起进去s1，年龄+1&lt;/div&gt;&lt;div&gt;如此往复，年龄到一定值(默认15)时进入老年代&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;rounded=0;sketch=0;align=left;" vertex="1" parent="1">
-          <mxGeometry x="385" y="1410" width="390" height="110" as="geometry" />
+          <mxGeometry x="1300" y="1220" width="390" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-49" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-47" target="3YaKURUqrE0tU1aqipD1-48">
+        <mxCell id="3YaKURUqrE0tU1aqipD1-49" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-153" target="3YaKURUqrE0tU1aqipD1-158">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-51" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-47" target="3YaKURUqrE0tU1aqipD1-50">
+        <mxCell id="3YaKURUqrE0tU1aqipD1-55" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-153" target="3YaKURUqrE0tU1aqipD1-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-55" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-47" target="3YaKURUqrE0tU1aqipD1-29">
+        <mxCell id="3YaKURUqrE0tU1aqipD1-134" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-153" target="3YaKURUqrE0tU1aqipD1-133">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-61" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-47" target="3YaKURUqrE0tU1aqipD1-59">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="3YaKURUqrE0tU1aqipD1-130" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" target="3YaKURUqrE0tU1aqipD1-129">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="865" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-47" value="&lt;span style=&quot;background-color: rgb(168, 218, 220);&quot;&gt;javal垃圾回收机制&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=#B0E3E6;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry y="1240" width="120" height="40" as="geometry" />
+        <mxCell id="3YaKURUqrE0tU1aqipD1-100" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-161" target="3YaKURUqrE0tU1aqipD1-99">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="1047" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-48" value="&lt;span style=&quot;background-color: rgb(168, 218, 220);&quot;&gt;什么样的对象算是垃圾&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=0;labelBackgroundColor=#B0E3E6;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="210" y="950" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-78" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-50" target="3YaKURUqrE0tU1aqipD1-77">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-87" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-50" target="3YaKURUqrE0tU1aqipD1-86">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-50" value="如何判断垃圾" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=0;labelBackgroundColor=#B0E3E6;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="210" y="1104" width="120" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-63" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-59" target="3YaKURUqrE0tU1aqipD1-62">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-65" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-59" target="3YaKURUqrE0tU1aqipD1-64">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-59" value="垃圾回收思想" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=0;labelBackgroundColor=#B0E3E6;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="210" y="1640" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-62" value="分区" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=0;labelBackgroundColor=#B0E3E6;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="385" y="1670" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-67" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-64" target="3YaKURUqrE0tU1aqipD1-66">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-70" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-64" target="3YaKURUqrE0tU1aqipD1-69">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-64" value="分代" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=0;labelBackgroundColor=#B0E3E6;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="385" y="1610" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-72" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-66" target="3YaKURUqrE0tU1aqipD1-71">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-66" value="弱分代假说" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=0;labelBackgroundColor=#B0E3E6;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="546" y="1590" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-74" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-69" target="3YaKURUqrE0tU1aqipD1-73">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-69" value="强分代假说" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=0;labelBackgroundColor=#B0E3E6;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="546" y="1630" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-71" value="绝大多数对象都是朝生夕灭的" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=0;labelBackgroundColor=#B0E3E6;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="696.5" y="1590" width="211" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-73" value="熬过多次垃圾回收的对象越难消亡" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=0;labelBackgroundColor=#B0E3E6;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="696.5" y="1630" width="211" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-77" value="引用计数法" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=0;labelBackgroundColor=#B0E3E6;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="385" y="990" width="120" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-100" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-79" target="3YaKURUqrE0tU1aqipD1-99">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-79" value="可达性分析" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=0;labelBackgroundColor=#B0E3E6;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="385" y="1034" width="125" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-84" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;endArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-50" target="3YaKURUqrE0tU1aqipD1-79">
+        <mxCell id="3YaKURUqrE0tU1aqipD1-84" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;endArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-154" target="3YaKURUqrE0tU1aqipD1-161">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="330" y="1117" as="sourcePoint" />
             <mxPoint x="469" y="1150" as="targetPoint" />
@@ -275,48 +222,18 @@
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-85" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="445" y="1186" as="sourcePoint" />
-            <mxPoint x="445" y="1186" as="targetPoint" />
+            <mxPoint x="430" y="1188" as="sourcePoint" />
+            <mxPoint x="430" y="1188" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-89" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-86" target="3YaKURUqrE0tU1aqipD1-88">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-86" value="引用" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=0;labelBackgroundColor=#B0E3E6;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="385" y="1140" width="120" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-92" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-88" target="3YaKURUqrE0tU1aqipD1-91">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-94" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-88" target="3YaKURUqrE0tU1aqipD1-93">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-96" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-88" target="3YaKURUqrE0tU1aqipD1-95">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-88" value="&lt;span style=&quot;background-color: rgb(168, 218, 220);&quot;&gt;哪些对象可以作为GC ROOT&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=0;labelBackgroundColor=#B0E3E6;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="550" y="1140" width="165" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-91" value="&lt;span style=&quot;background-color: rgb(168, 218, 220);&quot;&gt;虚拟机栈中引用的对象&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=0;labelBackgroundColor=#B0E3E6;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="757.5" y="1104" width="165" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-93" value="&lt;span style=&quot;background-color: rgb(168, 218, 220);&quot;&gt;本地方法栈中Native方法引用的对象&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=0;labelBackgroundColor=#B0E3E6;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="757.5" y="1177" width="222.5" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-95" value="&lt;span style=&quot;background-color: rgb(168, 218, 220);&quot;&gt;方法区中的静态变量和常量引用的对象&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=0;labelBackgroundColor=#B0E3E6;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="757" y="1138" width="222.5" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-102" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-99" target="3YaKURUqrE0tU1aqipD1-101">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-104" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-99" target="3YaKURUqrE0tU1aqipD1-103">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-110" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-99" target="3YaKURUqrE0tU1aqipD1-106">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-99" value="GC Root Tracing" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="546" y="1034" width="120" height="26" as="geometry" />
+          <mxGeometry x="526" y="1034" width="120" height="26" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-112" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-101" target="3YaKURUqrE0tU1aqipD1-111">
           <mxGeometry relative="1" as="geometry" />
@@ -331,15 +248,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-101" value="可触达" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="707" y="952" width="120" height="26" as="geometry" />
+          <mxGeometry x="730" y="994" width="120" height="26" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-106" value="不可触及" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="707" y="1070" width="120" height="26" as="geometry" />
+          <mxGeometry x="730" y="1070" width="120" height="26" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-103" value="可复活" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="707" y="1034" width="120" height="26" as="geometry" />
+          <mxGeometry x="730" y="937" width="120" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-108" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;endArrow=none;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-99" target="3YaKURUqrE0tU1aqipD1-103">
+        <mxCell id="3YaKURUqrE0tU1aqipD1-108" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;endArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-99" target="3YaKURUqrE0tU1aqipD1-103">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="666" y="1047" as="sourcePoint" />
             <mxPoint x="940" y="1070" as="targetPoint" />
@@ -349,37 +266,149 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-111" value="强引用" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="880" y="888" width="120" height="26" as="geometry" />
+          <mxGeometry x="910" y="934" width="120" height="26" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-123" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-113" target="3YaKURUqrE0tU1aqipD1-122">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-113" value="软引用" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="880" y="928" width="120" height="26" as="geometry" />
+          <mxGeometry x="910" y="974" width="120" height="26" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-125" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-115" target="3YaKURUqrE0tU1aqipD1-124">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-115" value="弱引用" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="880" y="970" width="120" height="26" as="geometry" />
+          <mxGeometry x="910" y="1016" width="120" height="26" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-128" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-116" target="3YaKURUqrE0tU1aqipD1-127">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-116" value="虚引用" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="880" y="1008" width="120" height="26" as="geometry" />
+          <mxGeometry x="910" y="1054" width="120" height="26" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-120" value="执行垃圾回收" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="888" width="120" height="26" as="geometry" />
+          <mxGeometry x="1070" y="934" width="120" height="26" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-122" value="正常GC后内存不够，会回收" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="928" width="180" height="26" as="geometry" />
+          <mxGeometry x="1070" y="974" width="180" height="26" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-124" value="只要GC就会回收，ThreadLocal" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="968" width="180" height="30" as="geometry" />
+          <mxGeometry x="1070" y="1014" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-127" value="跟踪回收对象" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="1008" width="120" height="26" as="geometry" />
+          <mxGeometry x="1070" y="1054" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-131" value="&lt;div&gt;新生代收集（Minor GC/Young GC）：指目标只是新生代的垃圾收集。&lt;/div&gt;&lt;div&gt;老年代收集（Major GC/Old GC）：指目标只是老年代的垃圾收集。&lt;/div&gt;&lt;div&gt;整堆收集（Full GC）。&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;rounded=0;sketch=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="1340" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-136" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-133" target="3YaKURUqrE0tU1aqipD1-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-143" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-133" target="3YaKURUqrE0tU1aqipD1-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-133" value="垃圾回收思想" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1450" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-138" value="分区" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1470" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-146" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-135" target="3YaKURUqrE0tU1aqipD1-145">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575" y="1425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-148" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-135" target="3YaKURUqrE0tU1aqipD1-147">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575" y="1465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-135" value="分代" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-141" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;endArrow=none;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-133" target="3YaKURUqrE0tU1aqipD1-135">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="1445" as="sourcePoint" />
+            <mxPoint x="470.0588235294117" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-150" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-145" target="3YaKURUqrE0tU1aqipD1-149">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-145" value="弱分代假说" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1410" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-152" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-147" target="3YaKURUqrE0tU1aqipD1-151">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-147" value="强分代假说" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1450" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-149" value="绝大多数对象都是朝生夕灭的" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1410" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-151" value="熬过多次垃圾回收的对象越难消亡" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1450" width="192.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-155" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-153" target="3YaKURUqrE0tU1aqipD1-154">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-153" value="java垃圾回收机制" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry y="1200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-157" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-154" target="3YaKURUqrE0tU1aqipD1-156">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-163" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-154" target="3YaKURUqrE0tU1aqipD1-162">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-154" value="如何判断垃圾" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1032" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-156" value="引用计数法" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="360" y="968" width="120" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-160" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-158" target="3YaKURUqrE0tU1aqipD1-159">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-158" value="什么样的对象算是垃圾" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="180" y="898" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-159" value="不可能再被任何途径使用的对象" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="360" y="898" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-161" value="可达性分析" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1036" width="120" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-165" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-162" target="3YaKURUqrE0tU1aqipD1-164">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-162" value="引用" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1152.5" width="120" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-167" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-164" target="3YaKURUqrE0tU1aqipD1-166">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-171" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-164" target="3YaKURUqrE0tU1aqipD1-168">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-172" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-164" target="3YaKURUqrE0tU1aqipD1-170">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-164" value="哪些对象可以作为GC ROOT" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="526" y="1147.5" width="160" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-166" value="虚拟机栈中引用的对象" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1110" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-168" value="方法区中的静态变量和常量引用的对象" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1150" width="210" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-169" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-164" target="3YaKURUqrE0tU1aqipD1-164">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-170" value="本地方法栈中Native方法引用的对象" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1185" width="210" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
