@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-18T05:44:39.986Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="0jdgrpNGY4_35LYJ2xJU" version="20.0.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-18T06:48:23.927Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="F-CIkxp6z6nQZXWeUWCS" version="20.0.1" type="github" pages="3">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1997" dy="2414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -16,11 +16,11 @@
         <mxCell id="JvyvGO8gftf1tCyCNyej-1" value="标记字&lt;br&gt;markword&lt;br&gt;8个字节" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" vertex="1">
           <mxGeometry x="180" y="-1099" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JvyvGO8gftf1tCyCNyej-2" value="类型指针&lt;br&gt;klassword&lt;br&gt;32位jvm4个字节，64位jvm8个字节，可压缩为4个字节" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" vertex="1">
-          <mxGeometry x="180" y="-1029" width="120" height="80" as="geometry" />
+        <mxCell id="JvyvGO8gftf1tCyCNyej-2" value="类型指针&lt;br&gt;klassword/classpointer&lt;br&gt;32位jvm4个字节，64位jvm8个字节，可压缩为4个字节" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" vertex="1">
+          <mxGeometry x="180" y="-1029" width="120" height="89" as="geometry" />
         </mxCell>
         <mxCell id="JvyvGO8gftf1tCyCNyej-3" value="实例数据&lt;br&gt;instance data" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" vertex="1">
-          <mxGeometry x="180" y="-939" width="120" height="60" as="geometry" />
+          <mxGeometry x="180" y="-930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JvyvGO8gftf1tCyCNyej-4" value="对齐&lt;br&gt;padding&lt;br&gt;不能被8整除的占位补齐" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" vertex="1">
           <mxGeometry x="180" y="-859" width="120" height="60" as="geometry" />
