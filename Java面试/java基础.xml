@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-18T06:58:01.618Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Skq3GYs-oldySEBDiGKa" version="20.0.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-18T11:10:00.452Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="xmlNyTOgwFN41HiJ8suX" version="20.0.1" type="github" pages="3">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
-    <mxGraphModel dx="1298" dy="1978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="1298" dy="2012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -608,7 +608,10 @@
         <mxCell id="3YaKURUqrE0tU1aqipD1-242" value="S2" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=0;labelBackgroundColor=none;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="850" y="831" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-250" value="&lt;span style=&quot;&quot;&gt;锁升级&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+        <mxCell id="fsRyBYvKakhd2QMCPyNI-4" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-250" target="fsRyBYvKakhd2QMCPyNI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3YaKURUqrE0tU1aqipD1-250" value="锁的概念" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="570" y="-1169" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-256" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3YaKURUqrE0tU1aqipD1-252" target="3YaKURUqrE0tU1aqipD1-255">
@@ -686,7 +689,7 @@
         <mxCell id="3YaKURUqrE0tU1aqipD1-282" value="&lt;b&gt;栈&lt;/b&gt;&lt;br&gt;局部变量表&lt;br&gt;操作栈&lt;br&gt;动态链接&lt;br&gt;方法出口" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="3YaKURUqrE0tU1aqipD1-278">
           <mxGeometry x="8" y="50" width="85" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-283" value="&lt;b&gt;本地方法栈&lt;/b&gt;&lt;br&gt;作用跟虚拟机栈相同，区别是用来执行本地方法，即jvm和操作系统打交道" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="3YaKURUqrE0tU1aqipD1-278">
+        <mxCell id="3YaKURUqrE0tU1aqipD1-283" value="&lt;b&gt;本地方法栈&lt;/b&gt;&lt;br&gt;作用跟虚拟机栈相同，区别是用来执行本地方法，即jvm和c++通信的工作" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="3YaKURUqrE0tU1aqipD1-278">
           <mxGeometry x="110" y="50" width="80" height="140" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-286" value="方法区&#xa;类的名称、方法信息、成员变量信息&#xa;常量、静态变量、&#xa;以及编译器编译后的代码等数据" style="swimlane;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;startSize=60;" vertex="1" parent="3YaKURUqrE0tU1aqipD1-285">
@@ -735,6 +738,93 @@
         </mxCell>
         <mxCell id="fsRyBYvKakhd2QMCPyNI-1" value="实例数据中的引用属性的占用情况，同类型指针一样" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="370" y="-930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fsRyBYvKakhd2QMCPyNI-3" value="&lt;span style=&quot;&quot;&gt;什么是CAS(compareAndSwap)&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="770" y="-1163.5" width="150" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="fsRyBYvKakhd2QMCPyNI-5" value="CAS" style="swimlane;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="950" y="-1169" width="710" height="419" as="geometry" />
+        </mxCell>
+        <mxCell id="fsRyBYvKakhd2QMCPyNI-6" value="开始" style="ellipse;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="fsRyBYvKakhd2QMCPyNI-5">
+          <mxGeometry x="11" y="35.5" width="39" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fsRyBYvKakhd2QMCPyNI-7" value="读取当前值1" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=0;labelBackgroundColor=none;sketch=0;" vertex="1" parent="fsRyBYvKakhd2QMCPyNI-5">
+          <mxGeometry x="89.5" y="37.31" width="80.5" height="30.87" as="geometry" />
+        </mxCell>
+        <mxCell id="fsRyBYvKakhd2QMCPyNI-8" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="fsRyBYvKakhd2QMCPyNI-5" source="fsRyBYvKakhd2QMCPyNI-6" target="fsRyBYvKakhd2QMCPyNI-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fsRyBYvKakhd2QMCPyNI-9" value="计算结果值2" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=0;labelBackgroundColor=none;sketch=0;" vertex="1" parent="fsRyBYvKakhd2QMCPyNI-5">
+          <mxGeometry x="89.5" y="90" width="80.5" height="30.87" as="geometry" />
+        </mxCell>
+        <mxCell id="fsRyBYvKakhd2QMCPyNI-10" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="fsRyBYvKakhd2QMCPyNI-5" source="fsRyBYvKakhd2QMCPyNI-7" target="fsRyBYvKakhd2QMCPyNI-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fsRyBYvKakhd2QMCPyNI-13" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="fsRyBYvKakhd2QMCPyNI-5" source="fsRyBYvKakhd2QMCPyNI-11" target="fsRyBYvKakhd2QMCPyNI-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fsRyBYvKakhd2QMCPyNI-14" value="不相等" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1D3557;" vertex="1" connectable="0" parent="fsRyBYvKakhd2QMCPyNI-13">
+          <mxGeometry x="-0.4751" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fsRyBYvKakhd2QMCPyNI-11" value="重新读取新值，是否和当前值1相等" style="rhombus;whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=0;labelBackgroundColor=none;sketch=0;" vertex="1" parent="fsRyBYvKakhd2QMCPyNI-5">
+          <mxGeometry x="77.06" y="150" width="105.37" height="53.69" as="geometry" />
+        </mxCell>
+        <mxCell id="fsRyBYvKakhd2QMCPyNI-12" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="fsRyBYvKakhd2QMCPyNI-5" source="fsRyBYvKakhd2QMCPyNI-9" target="fsRyBYvKakhd2QMCPyNI-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fsRyBYvKakhd2QMCPyNI-15" value="更新值为计算结果" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=0;labelBackgroundColor=none;sketch=0;" vertex="1" parent="fsRyBYvKakhd2QMCPyNI-5">
+          <mxGeometry x="74.60999999999989" y="239.99999999999997" width="110.26" height="29.47" as="geometry" />
+        </mxCell>
+        <mxCell id="fsRyBYvKakhd2QMCPyNI-16" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="fsRyBYvKakhd2QMCPyNI-5" source="fsRyBYvKakhd2QMCPyNI-11" target="fsRyBYvKakhd2QMCPyNI-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="240" />
+              <mxPoint x="130" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fsRyBYvKakhd2QMCPyNI-17" value="相等" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1D3557;" vertex="1" connectable="0" parent="fsRyBYvKakhd2QMCPyNI-16">
+          <mxGeometry x="-0.5105" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fsRyBYvKakhd2QMCPyNI-18" value="结束" style="ellipse;whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=0;labelBackgroundColor=none;sketch=0;" vertex="1" parent="fsRyBYvKakhd2QMCPyNI-5">
+          <mxGeometry x="112.05" y="299.46" width="35.38" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fsRyBYvKakhd2QMCPyNI-19" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="fsRyBYvKakhd2QMCPyNI-5" source="fsRyBYvKakhd2QMCPyNI-15" target="fsRyBYvKakhd2QMCPyNI-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fsRyBYvKakhd2QMCPyNI-20" value="ABA问题，其他线程修改多次最后的值和原值相同" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="fsRyBYvKakhd2QMCPyNI-5">
+          <mxGeometry x="230" y="234.5" width="140" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="fsRyBYvKakhd2QMCPyNI-21" value="其他线程修改了值" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="fsRyBYvKakhd2QMCPyNI-5">
+          <mxGeometry x="240" y="100" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fsRyBYvKakhd2QMCPyNI-22" value="对于基本类型类来说没关系，对于引用类型来说指针相同的情况下，指向的对象可能不同" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=0;labelBackgroundColor=none;sketch=0;" vertex="1" parent="fsRyBYvKakhd2QMCPyNI-5">
+          <mxGeometry x="410" y="219" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fsRyBYvKakhd2QMCPyNI-23" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="fsRyBYvKakhd2QMCPyNI-5" source="fsRyBYvKakhd2QMCPyNI-20" target="fsRyBYvKakhd2QMCPyNI-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fsRyBYvKakhd2QMCPyNI-24" value="用版本号标识" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=0;labelBackgroundColor=none;sketch=0;" vertex="1" parent="fsRyBYvKakhd2QMCPyNI-5">
+          <mxGeometry x="435" y="343.49" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fsRyBYvKakhd2QMCPyNI-25" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="fsRyBYvKakhd2QMCPyNI-5" source="fsRyBYvKakhd2QMCPyNI-22" target="fsRyBYvKakhd2QMCPyNI-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fsRyBYvKakhd2QMCPyNI-27" value="用boolean标识" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="fsRyBYvKakhd2QMCPyNI-5">
+          <mxGeometry x="570" y="373.48999999999995" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fsRyBYvKakhd2QMCPyNI-29" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="fsRyBYvKakhd2QMCPyNI-5" source="fsRyBYvKakhd2QMCPyNI-24" target="fsRyBYvKakhd2QMCPyNI-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fsRyBYvKakhd2QMCPyNI-26" value="序列号增加" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="fsRyBYvKakhd2QMCPyNI-5">
+          <mxGeometry x="570" y="314.03" width="110" height="29.46" as="geometry" />
+        </mxCell>
+        <mxCell id="fsRyBYvKakhd2QMCPyNI-28" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="fsRyBYvKakhd2QMCPyNI-5" source="fsRyBYvKakhd2QMCPyNI-24" target="fsRyBYvKakhd2QMCPyNI-26">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
