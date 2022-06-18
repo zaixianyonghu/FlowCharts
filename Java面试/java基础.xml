@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-18T06:48:23.927Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="F-CIkxp6z6nQZXWeUWCS" version="20.0.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-18T06:58:01.618Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Skq3GYs-oldySEBDiGKa" version="20.0.1" type="github" pages="3">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
-    <mxGraphModel dx="1997" dy="2414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="1298" dy="1978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,6 +18,9 @@
         </mxCell>
         <mxCell id="JvyvGO8gftf1tCyCNyej-2" value="类型指针&lt;br&gt;klassword/classpointer&lt;br&gt;32位jvm4个字节，64位jvm8个字节，可压缩为4个字节" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" vertex="1">
           <mxGeometry x="180" y="-1029" width="120" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="fsRyBYvKakhd2QMCPyNI-2" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="JvyvGO8gftf1tCyCNyej-3" target="fsRyBYvKakhd2QMCPyNI-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JvyvGO8gftf1tCyCNyej-3" value="实例数据&lt;br&gt;instance data" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" vertex="1">
           <mxGeometry x="180" y="-930" width="120" height="60" as="geometry" />
@@ -729,6 +732,9 @@
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-295" value="持久性Duration" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
           <mxGeometry x="160" y="2361.5" width="110" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="fsRyBYvKakhd2QMCPyNI-1" value="实例数据中的引用属性的占用情况，同类型指针一样" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="370" y="-930" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
