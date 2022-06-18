@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-18T12:15:38.661Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="UFobQkOOnXYGNOdGWJ53" version="20.0.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-18T12:21:48.640Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="j37fEuVNicMoLsVLlD3X" version="20.0.1" type="github" pages="3">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1366" dy="3225" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -740,7 +740,9 @@
           <mxGeometry x="370" y="-930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fsRyBYvKakhd2QMCPyNI-5" value="CAS(compareAndSwap)&#xa;自旋锁(一直等待在门口等着门开)" style="swimlane;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;startSize=50;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="-1353.25" width="620" height="364.5" as="geometry" />
+          <mxGeometry x="1200" y="-1353.25" width="620" height="364.5" as="geometry">
+            <mxRectangle x="1200" y="-1353.25" width="210" height="50" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="fsRyBYvKakhd2QMCPyNI-6" value="开始" style="ellipse;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="fsRyBYvKakhd2QMCPyNI-5">
           <mxGeometry x="11" y="54.5" width="39" height="34.5" as="geometry" />
@@ -826,7 +828,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fsRyBYvKakhd2QMCPyNI-31" value="锁升级" style="swimlane;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="685" y="-1259" width="480" height="240" as="geometry" />
+          <mxGeometry x="685" y="-1259" width="480" height="240" as="geometry">
+            <mxRectangle x="685" y="-1259" width="70" height="23" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="fsRyBYvKakhd2QMCPyNI-36" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="fsRyBYvKakhd2QMCPyNI-31" source="fsRyBYvKakhd2QMCPyNI-33" target="fsRyBYvKakhd2QMCPyNI-34">
           <mxGeometry relative="1" as="geometry" />
@@ -897,7 +901,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Yuk0tkyHEU3-n-yhUi4G" name="java基础2">
-    <mxGraphModel dx="1298" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="1298" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -914,7 +918,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GyFKiCVr4R9SL9WbRrUE" name="Spring1">
-    <mxGraphModel dx="1298" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1298" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
