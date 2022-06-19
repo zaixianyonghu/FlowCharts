@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-18T12:43:37.114Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="b6_Q7L8n2fWCJJBjstDY" version="20.0.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-19T04:25:21.218Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="3Uyiqde8Z4tcGyH5mOmZ" version="20.0.1" type="github" pages="3">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1366" dy="3225" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -915,6 +915,9 @@
         </mxCell>
         <mxCell id="FEhq5FsEMODJMzkvt2nq-2" value="操作系统通过每个线程占用一段CPU时间实现，但是会考虑线程紧急程度和等待时间" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=0;labelBackgroundColor=none;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="817.75" y="-1500" width="132.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FEhq5FsEMODJMzkvt2nq-10" value="" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="697.75" y="-1400" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
