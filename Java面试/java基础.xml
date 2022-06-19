@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-19T08:32:22.326Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="AADg8FytHv8VHGzetj3l" version="20.0.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-19T09:33:02.570Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="VdlWjBkQ3R2yjwjOIqZl" version="20.0.1" type="github" pages="4">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1366" dy="3225" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -1046,17 +1046,26 @@
         <mxCell id="GNpJ6vOXNVsyv50PAA8b-1" value="BIO、NIO、AIO" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
           <mxGeometry y="390" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GNpJ6vOXNVsyv50PAA8b-3" value="BIO(block IO)" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+        <mxCell id="GNpJ6vOXNVsyv50PAA8b-3" value="BIO(block IO)&amp;nbsp;同步堵塞" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
           <mxGeometry x="160" y="290" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GNpJ6vOXNVsyv50PAA8b-4" value="NIO(new non block IO)" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="160" y="370" width="130" height="30" as="geometry" />
+        <mxCell id="GNpJ6vOXNVsyv50PAA8b-4" value="NIO(new non block IO)同步非堵塞IO" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="160" y="360" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GNpJ6vOXNVsyv50PAA8b-5" value="AIO(&lt;span style=&quot;background-color: initial;&quot;&gt;Asynchronous IO&lt;/span&gt;)" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="160" y="440" width="150" height="30" as="geometry" />
+        <mxCell id="GNpJ6vOXNVsyv50PAA8b-5" value="AIO(&lt;span style=&quot;background-color: initial;&quot;&gt;Asynchronous IO&lt;/span&gt;) NIO2异步非堵塞" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="160" y="440" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GNpJ6vOXNVsyv50PAA8b-6" value="Netty" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
           <mxGeometry x="160" y="500" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GNpJ6vOXNVsyv50PAA8b-7" value="在BIO的程序中，建立连接accept，线程是同步阻塞的，会有一个线程死循环专门等待链接。&lt;br&gt;读写read，write也是同步阻塞的，调用read之后，如果收到信息，线程会阻塞在这里。write也是阻塞的，写的时候线程不能做其他的事" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;align=left;" vertex="1" parent="1">
+          <mxGeometry x="414" y="267.5" width="416" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="GNpJ6vOXNVsyv50PAA8b-8" value="所有的连接都是Channel，Channel都会被注册在Selector上，Selector通过一个线程不停的轮询这些Channel。找出已经准备就绪的Channel执行IO操作&lt;br&gt;bio的读写是面向流的会阻塞，nio的读写是面向缓冲区的非阻塞，" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;align=left;" vertex="1" parent="1">
+          <mxGeometry x="414" y="355" width="416" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GNpJ6vOXNVsyv50PAA8b-9" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;异步NIO，基于事件回调，建立连接之后OS通知Selector，Selector回调创建线程去做对应的消息处理&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;align=left;" vertex="1" parent="1">
+          <mxGeometry x="414" y="430" width="418" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
