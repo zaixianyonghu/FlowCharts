@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-19T05:07:41.055Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="n1TokROIvt6l6OtGERY_" version="20.0.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-19T05:19:51.357Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="NX_ow1xgzasFCEBb9fCy" version="20.0.1" type="github" pages="4">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1366" dy="3225" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -1167,6 +1167,17 @@
         </mxCell>
         <mxCell id="nTDN-L7x6VQaeQ5BDyei-39" value="老师只是讲了自己对spring非常熟悉的理解，也就是结论，但是没有讲自己用的是什么方法，途径才理解到这种程度，问下老师理解到这种程度哟了多久时间，最有效的阅读源码的思路" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
           <mxGeometry x="10" y="840" width="300" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rAUnJ1PRIwO4fAHfJwu_" name="redis1">
+    <mxGraphModel dx="1298" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zsFNKaGLE6Yla2p6UPN9-2" value="1.redis5大value类型&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;align=left;" vertex="1" parent="1">
+          <mxGeometry x="10" y="30" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
