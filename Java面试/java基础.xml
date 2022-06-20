@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-20T05:59:13.306Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="8hmFts8OgJAmmeomK7Ex" version="20.0.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-06-20T06:01:52.477Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="yK0ZcoQZ3UA4W3f8s4qW" version="20.0.1" type="github" pages="5">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1366" dy="3225" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -1212,34 +1212,34 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="lQnC9XkcdSyJAuZk8OT7-1" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;mysql事务的隔离级别&lt;/span&gt;&lt;/div&gt;用于限定事务内外哪些改变是可见的，低级别的隔离支持更高的并发，拥有更低的开销" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;align=left;" vertex="1" parent="1">
-          <mxGeometry y="100" width="170" height="70" as="geometry" />
+          <mxGeometry y="510" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="lQnC9XkcdSyJAuZk8OT7-2" value="Read uncommitted&lt;br&gt;读未提交" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="200" y="20" width="110" height="40" as="geometry" />
+          <mxGeometry x="200" y="430" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="lQnC9XkcdSyJAuZk8OT7-3" value="Read committed&lt;br&gt;读已提交" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;strokeColor=#36393d;fillColor=#cce5ff;" vertex="1" parent="1">
-          <mxGeometry x="200" y="80" width="110" height="40" as="geometry" />
+          <mxGeometry x="200" y="490" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="lQnC9XkcdSyJAuZk8OT7-4" value="Repeatable read&lt;br&gt;可重复读" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;strokeColor=#36393d;fillColor=#ffcccc;" vertex="1" parent="1">
-          <mxGeometry x="200" y="140" width="110" height="40" as="geometry" />
+          <mxGeometry x="200" y="550" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="lQnC9XkcdSyJAuZk8OT7-5" value="serializable&lt;br&gt;串行化" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="1">
-          <mxGeometry x="200" y="200" width="110" height="40" as="geometry" />
+          <mxGeometry x="200" y="610" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qXpYdqf6eJaAgNHMgzLr-1" value="所有事务都可以读到事务未提交的结果" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;size=14;align=left;" vertex="1" parent="1">
-          <mxGeometry x="390" y="20" width="130" height="40" as="geometry" />
+          <mxGeometry x="390" y="430" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qXpYdqf6eJaAgNHMgzLr-2" value="大多数数据库的默认隔离级别，事务只能读到其他事务提交完成的数据，但是有不可重复读的问题，事务中运行同一个语句两次，看到的结果是不同的" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;size=14;fontStyle=0;align=left;" vertex="1" parent="1">
-          <mxGeometry x="390" y="80" width="420" height="40" as="geometry" />
+          <mxGeometry x="390" y="490" width="420" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qXpYdqf6eJaAgNHMgzLr-3" value="mysql默认的隔离级别，事务中多次查询的结果是相同的，但是会有幻读的问题，mysql通过使用mvcc解决了幻读的问题" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;size=14;align=left;" vertex="1" parent="1">
-          <mxGeometry x="390" y="140" width="380" height="40" as="geometry" />
+          <mxGeometry x="390" y="550" width="380" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qXpYdqf6eJaAgNHMgzLr-4" value="事务通过顺序执行，互相不能冲突" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;size=14;align=left;" vertex="1" parent="1">
-          <mxGeometry x="390" y="200" width="220" height="40" as="geometry" />
+          <mxGeometry x="390" y="610" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qXpYdqf6eJaAgNHMgzLr-39" value="事务隔离级别" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry y="270" width="1300" height="250" as="geometry" />
+          <mxGeometry y="680" width="1300" height="250" as="geometry" />
         </mxCell>
         <mxCell id="qXpYdqf6eJaAgNHMgzLr-40" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;" vertex="1" parent="qXpYdqf6eJaAgNHMgzLr-39">
           <mxGeometry y="30" width="1300" height="20" as="geometry" />
@@ -1331,32 +1331,64 @@
             <mxRectangle width="640" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="qXpYdqf6eJaAgNHMgzLr-76" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qXpYdqf6eJaAgNHMgzLr-65" target="qXpYdqf6eJaAgNHMgzLr-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="262.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qXpYdqf6eJaAgNHMgzLr-77" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qXpYdqf6eJaAgNHMgzLr-65" target="qXpYdqf6eJaAgNHMgzLr-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="262.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qXpYdqf6eJaAgNHMgzLr-78" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qXpYdqf6eJaAgNHMgzLr-65" target="qXpYdqf6eJaAgNHMgzLr-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="262.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qXpYdqf6eJaAgNHMgzLr-79" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qXpYdqf6eJaAgNHMgzLr-65" target="qXpYdqf6eJaAgNHMgzLr-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="262.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="qXpYdqf6eJaAgNHMgzLr-65" value="事务的4大问题" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry y="785" width="110" height="30" as="geometry" />
+          <mxGeometry y="247.5" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qXpYdqf6eJaAgNHMgzLr-81" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="qXpYdqf6eJaAgNHMgzLr-67" target="qXpYdqf6eJaAgNHMgzLr-71">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qXpYdqf6eJaAgNHMgzLr-67" value="脏读" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="150" y="735" width="60" height="30" as="geometry" />
+          <mxGeometry x="150" y="197.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qXpYdqf6eJaAgNHMgzLr-82" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="qXpYdqf6eJaAgNHMgzLr-68" target="qXpYdqf6eJaAgNHMgzLr-72">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qXpYdqf6eJaAgNHMgzLr-68" value="不可重复读" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="150" y="815" width="90" height="30" as="geometry" />
+          <mxGeometry x="150" y="277.5" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qXpYdqf6eJaAgNHMgzLr-84" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="qXpYdqf6eJaAgNHMgzLr-69" target="qXpYdqf6eJaAgNHMgzLr-75">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qXpYdqf6eJaAgNHMgzLr-69" value="幻读" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="150" y="885" width="60" height="30" as="geometry" />
+          <mxGeometry x="150" y="347.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qXpYdqf6eJaAgNHMgzLr-71" value="读到别的事务未提交的数据" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;size=14;" vertex="1" parent="1">
-          <mxGeometry x="270" y="730" width="160" height="35" as="geometry" />
+          <mxGeometry x="270" y="195" width="160" height="35" as="geometry" />
         </mxCell>
         <mxCell id="qXpYdqf6eJaAgNHMgzLr-72" value="两次读之间有别的事务修改" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;size=14;" vertex="1" parent="1">
-          <mxGeometry x="270" y="812.5" width="160" height="35" as="geometry" />
+          <mxGeometry x="270" y="275" width="160" height="35" as="geometry" />
         </mxCell>
         <mxCell id="qXpYdqf6eJaAgNHMgzLr-73" value="和别的事务读到相同的东西，各自写，自己的写被覆盖了" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;size=14;" vertex="1" parent="1">
-          <mxGeometry x="270" y="660" width="160" height="35" as="geometry" />
+          <mxGeometry x="270" y="120" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="qXpYdqf6eJaAgNHMgzLr-80" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="qXpYdqf6eJaAgNHMgzLr-74" target="qXpYdqf6eJaAgNHMgzLr-73">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qXpYdqf6eJaAgNHMgzLr-74" value="更新丢失/脏写" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="150" y="660" width="90" height="30" as="geometry" />
+          <mxGeometry x="150" y="122.5" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qXpYdqf6eJaAgNHMgzLr-75" value="两次读之间有别的事务新增了数据" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;size=14;" vertex="1" parent="1">
-          <mxGeometry x="270" y="880" width="190" height="35" as="geometry" />
+          <mxGeometry x="270" y="345" width="190" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
