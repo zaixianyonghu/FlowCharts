@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-20T05:47:24.222Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="z7Kv_SX23uvrXiz9z1yj" version="20.0.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-06-20T05:59:13.306Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="8hmFts8OgJAmmeomK7Ex" version="20.0.1" type="github" pages="5">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1366" dy="3225" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -1331,8 +1331,8 @@
             <mxRectangle width="640" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qXpYdqf6eJaAgNHMgzLr-65" value="事务出现的问题" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry y="815" width="110" height="30" as="geometry" />
+        <mxCell id="qXpYdqf6eJaAgNHMgzLr-65" value="事务的4大问题" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry y="785" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qXpYdqf6eJaAgNHMgzLr-67" value="脏读" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
           <mxGeometry x="150" y="735" width="60" height="30" as="geometry" />
@@ -1343,8 +1343,20 @@
         <mxCell id="qXpYdqf6eJaAgNHMgzLr-69" value="幻读" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
           <mxGeometry x="150" y="885" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qXpYdqf6eJaAgNHMgzLr-71" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;size=14;" vertex="1" parent="1">
-          <mxGeometry x="270" y="725" width="150" height="50" as="geometry" />
+        <mxCell id="qXpYdqf6eJaAgNHMgzLr-71" value="读到别的事务未提交的数据" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;size=14;" vertex="1" parent="1">
+          <mxGeometry x="270" y="730" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="qXpYdqf6eJaAgNHMgzLr-72" value="两次读之间有别的事务修改" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;size=14;" vertex="1" parent="1">
+          <mxGeometry x="270" y="812.5" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="qXpYdqf6eJaAgNHMgzLr-73" value="和别的事务读到相同的东西，各自写，自己的写被覆盖了" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;size=14;" vertex="1" parent="1">
+          <mxGeometry x="270" y="660" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="qXpYdqf6eJaAgNHMgzLr-74" value="更新丢失/脏写" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="150" y="660" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qXpYdqf6eJaAgNHMgzLr-75" value="两次读之间有别的事务新增了数据" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;size=14;" vertex="1" parent="1">
+          <mxGeometry x="270" y="880" width="190" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
