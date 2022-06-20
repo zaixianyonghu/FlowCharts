@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-20T12:53:00.533Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="y6TPGZKFI2w5yIAoyesr" version="20.0.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-06-20T13:18:44.930Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="EmgQOZFMlMGTPTcYyv5m" version="20.0.1" type="github" pages="5">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1298" dy="3181" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -1562,11 +1562,20 @@
         <mxCell id="bT1TuoBY9aTp7_h9dzpu-15" value="表级锁&lt;br&gt;innodb，myisam" style="whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
           <mxGeometry x="240" y="1450" width="100" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="D7XyncB5rPK2taSGHUYp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bT1TuoBY9aTp7_h9dzpu-25" target="bT1TuoBY9aTp7_h9dzpu-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bT1TuoBY9aTp7_h9dzpu-25" value="临建锁&lt;br&gt;Next-key Lock" style="whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
           <mxGeometry x="400" y="1740" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="D7XyncB5rPK2taSGHUYp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bT1TuoBY9aTp7_h9dzpu-18" target="bT1TuoBY9aTp7_h9dzpu-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bT1TuoBY9aTp7_h9dzpu-18" value="记录锁&lt;br&gt;Record Locks" style="whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
           <mxGeometry x="400" y="1620" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D7XyncB5rPK2taSGHUYp-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bT1TuoBY9aTp7_h9dzpu-23" target="bT1TuoBY9aTp7_h9dzpu-53">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bT1TuoBY9aTp7_h9dzpu-23" value="间隙锁&lt;br&gt;Gap Locks" style="whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
           <mxGeometry x="400" y="1680" width="80" height="40" as="geometry" />
@@ -1592,13 +1601,13 @@
         <mxCell id="bT1TuoBY9aTp7_h9dzpu-52" value="使用主键或唯一索引锁住记录" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=9;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
           <mxGeometry x="520" y="1620" width="380" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bT1TuoBY9aTp7_h9dzpu-53" value="锁住表的某个区间，使用范围查询时，Innodb会锁住范围区间" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=9;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+        <mxCell id="bT1TuoBY9aTp7_h9dzpu-53" value="锁住表的某个区间，使用范围查询时，Innodb会锁住条件命中的索引范围区间，用来解决幻读的问题" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=9;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
           <mxGeometry x="520" y="1680" width="380" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bT1TuoBY9aTp7_h9dzpu-54" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=9;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+        <mxCell id="bT1TuoBY9aTp7_h9dzpu-54" value="内存跟磁盘交互时是以数据页为单位的，datapage，一般是4kb或者8kb由操作系统决定，介于表锁和行锁之间" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=9;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
           <mxGeometry x="400" y="1510" width="380" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bT1TuoBY9aTp7_h9dzpu-56" value="记录锁与间隙锁的作用集合，锁住表的某个区间" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=9;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+        <mxCell id="bT1TuoBY9aTp7_h9dzpu-56" value="记录锁与间隙锁的作用集合，会锁住查询出来的记录，同时会锁住该范围所有的空间，再之它会把相邻的下一个区间锁住" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=9;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
           <mxGeometry x="520" y="1740" width="380" height="40" as="geometry" />
         </mxCell>
       </root>
