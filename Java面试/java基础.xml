@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-20T13:18:44.930Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="EmgQOZFMlMGTPTcYyv5m" version="20.0.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-06-20T13:57:54.100Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="ebSVgJCVvL28DMq-6DpN" version="20.0.1" type="github" pages="5">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1298" dy="3181" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -1373,7 +1373,7 @@
           <mxGeometry x="360" y="1190" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qXpYdqf6eJaAgNHMgzLr-145" value="mysql复制原理" style="swimlane;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" parent="1" vertex="1">
-          <mxGeometry x="95" y="1970" width="340" height="470" as="geometry" />
+          <mxGeometry x="10" y="2510" width="340" height="470" as="geometry" />
         </mxCell>
         <mxCell id="qXpYdqf6eJaAgNHMgzLr-119" value="master" style="shape=datastore;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" parent="qXpYdqf6eJaAgNHMgzLr-145" vertex="1">
           <mxGeometry x="55" y="35" width="60" height="60" as="geometry" />
@@ -1458,7 +1458,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eHnZoRhbvyaCBibSbsIU-1" value="索引" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="90" y="2500" width="80" height="40" as="geometry" />
+          <mxGeometry x="40" y="2340" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eHnZoRhbvyaCBibSbsIU-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eHnZoRhbvyaCBibSbsIU-2" target="eHnZoRhbvyaCBibSbsIU-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1467,19 +1467,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eHnZoRhbvyaCBibSbsIU-2" value="索引的类型" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="210" y="2500" width="80" height="40" as="geometry" />
+          <mxGeometry x="160" y="2340" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eHnZoRhbvyaCBibSbsIU-4" value="B+树" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="330" y="2460" width="80" height="40" as="geometry" />
+          <mxGeometry x="280" y="2300" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eHnZoRhbvyaCBibSbsIU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eHnZoRhbvyaCBibSbsIU-5" target="eHnZoRhbvyaCBibSbsIU-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eHnZoRhbvyaCBibSbsIU-5" value="hash索引" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="330" y="2540" width="80" height="40" as="geometry" />
+          <mxGeometry x="280" y="2380" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eHnZoRhbvyaCBibSbsIU-8" value="等值查询，效率高，不能排序、like，范围查询" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="2540" width="160" height="40" as="geometry" />
+          <mxGeometry x="400" y="2380" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bT1TuoBY9aTp7_h9dzpu-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fad9d5;strokeColor=#ae4132;" edge="1" parent="1" source="bT1TuoBY9aTp7_h9dzpu-1" target="bT1TuoBY9aTp7_h9dzpu-3">
           <mxGeometry relative="1" as="geometry" />
@@ -1609,6 +1609,12 @@
         </mxCell>
         <mxCell id="bT1TuoBY9aTp7_h9dzpu-56" value="记录锁与间隙锁的作用集合，会锁住查询出来的记录，同时会锁住该范围所有的空间，再之它会把相邻的下一个区间锁住" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=9;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
           <mxGeometry x="520" y="1740" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D7XyncB5rPK2taSGHUYp-5" value="MVCC(Multiversion concurrency control)&lt;br&gt;多版本并发控制" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D7XyncB5rPK2taSGHUYp-6" value="mysql执行计划" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="3060" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
