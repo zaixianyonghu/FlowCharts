@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-20T13:57:54.100Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="ebSVgJCVvL28DMq-6DpN" version="20.0.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-06-21T04:22:54.810Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="RvHFBOiQ0aw_k-rylUvB" version="20.0.1" type="github" pages="5">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1298" dy="3181" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -1373,7 +1373,7 @@
           <mxGeometry x="360" y="1190" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qXpYdqf6eJaAgNHMgzLr-145" value="mysql复制原理" style="swimlane;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" parent="1" vertex="1">
-          <mxGeometry x="10" y="2510" width="340" height="470" as="geometry" />
+          <mxGeometry x="60" y="3280" width="340" height="470" as="geometry" />
         </mxCell>
         <mxCell id="qXpYdqf6eJaAgNHMgzLr-119" value="master" style="shape=datastore;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" parent="qXpYdqf6eJaAgNHMgzLr-145" vertex="1">
           <mxGeometry x="55" y="35" width="60" height="60" as="geometry" />
@@ -1458,7 +1458,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eHnZoRhbvyaCBibSbsIU-1" value="索引" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="2340" width="80" height="40" as="geometry" />
+          <mxGeometry x="60" y="3170" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eHnZoRhbvyaCBibSbsIU-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eHnZoRhbvyaCBibSbsIU-2" target="eHnZoRhbvyaCBibSbsIU-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1467,19 +1467,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eHnZoRhbvyaCBibSbsIU-2" value="索引的类型" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="2340" width="80" height="40" as="geometry" />
+          <mxGeometry x="180" y="3170" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eHnZoRhbvyaCBibSbsIU-4" value="B+树" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="2300" width="80" height="40" as="geometry" />
+          <mxGeometry x="300" y="3130" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eHnZoRhbvyaCBibSbsIU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eHnZoRhbvyaCBibSbsIU-5" target="eHnZoRhbvyaCBibSbsIU-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eHnZoRhbvyaCBibSbsIU-5" value="hash索引" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="2380" width="80" height="40" as="geometry" />
+          <mxGeometry x="300" y="3210" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eHnZoRhbvyaCBibSbsIU-8" value="等值查询，效率高，不能排序、like，范围查询" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="400" y="2380" width="160" height="40" as="geometry" />
+          <mxGeometry x="420" y="3210" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bT1TuoBY9aTp7_h9dzpu-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fad9d5;strokeColor=#ae4132;" edge="1" parent="1" source="bT1TuoBY9aTp7_h9dzpu-1" target="bT1TuoBY9aTp7_h9dzpu-3">
           <mxGeometry relative="1" as="geometry" />
@@ -1611,10 +1611,58 @@
           <mxGeometry x="520" y="1740" width="380" height="40" as="geometry" />
         </mxCell>
         <mxCell id="D7XyncB5rPK2taSGHUYp-5" value="MVCC(Multiversion concurrency control)&lt;br&gt;多版本并发控制" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="2020" width="120" height="60" as="geometry" />
+          <mxGeometry y="2080" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="D7XyncB5rPK2taSGHUYp-6" value="mysql执行计划" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3060" width="120" height="60" as="geometry" />
+          <mxGeometry x="90" y="3830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D7XyncB5rPK2taSGHUYp-7" value="undo_log版本链" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="2040" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D7XyncB5rPK2taSGHUYp-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="D7XyncB5rPK2taSGHUYp-8" target="D7XyncB5rPK2taSGHUYp-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7XyncB5rPK2taSGHUYp-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;" edge="1" parent="1" source="D7XyncB5rPK2taSGHUYp-8" target="D7XyncB5rPK2taSGHUYp-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7XyncB5rPK2taSGHUYp-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="D7XyncB5rPK2taSGHUYp-8" target="D7XyncB5rPK2taSGHUYp-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7XyncB5rPK2taSGHUYp-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="D7XyncB5rPK2taSGHUYp-8" target="D7XyncB5rPK2taSGHUYp-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7XyncB5rPK2taSGHUYp-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="D7XyncB5rPK2taSGHUYp-8" target="D7XyncB5rPK2taSGHUYp-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7XyncB5rPK2taSGHUYp-8" value="ReadView" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="2500" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D7XyncB5rPK2taSGHUYp-10" value="&lt;span style=&quot;text-align: center;&quot;&gt;ReadView&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;快照读&lt;/font&gt;，快照读就是Select查询，&lt;font color=&quot;#ff0000&quot;&gt;当前读&lt;/font&gt;指代执行下列语句时进行数据读取的方式，insert、update、delete、select...for update、select...lock in share mode&lt;br&gt;&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=9;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="455" y="2370" width="430" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D7XyncB5rPK2taSGHUYp-12" value="m_ids&lt;br&gt;当前活跃的，未提交事务编号集合" style="whiteSpace=wrap;html=1;fontColor=#000000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="455" y="2440" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D7XyncB5rPK2taSGHUYp-13" value="min_trx_id&lt;br&gt;最小活跃事务编号" style="whiteSpace=wrap;html=1;fontColor=#000000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="455" y="2500" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D7XyncB5rPK2taSGHUYp-14" value="max_trx_id&lt;br&gt;预分配事务编号，当前最大事务编号+1" style="whiteSpace=wrap;html=1;fontColor=#000000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="455" y="2560" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D7XyncB5rPK2taSGHUYp-15" value="creator_trx_id&lt;br&gt;ReadView创建者的事务编号" style="whiteSpace=wrap;html=1;fontColor=#000000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="455" y="2618" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D7XyncB5rPK2taSGHUYp-16" value="读已提交(RC)级别，在每一次执行快照读时生成ReadView" style="whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="130" y="2510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D7XyncB5rPK2taSGHUYp-22" value="trx_id&lt;br&gt;事务id" style="whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="2000" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D7XyncB5rPK2taSGHUYp-23" value="db_roll_ptr&lt;br&gt;指针：指向上一个事务id" style="whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="2060" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D7XyncB5rPK2taSGHUYp-27" value="&lt;span style=&quot;text-align: center;&quot;&gt;数据访问规则&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;1.当前事务trx_id是否等于&lt;/span&gt;creator_trx_id，是的话表示是自己的事务，可以访问&lt;br&gt;&lt;span style=&quot;text-align: center;&quot;&gt;2.undo_log中的&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;trx_id &amp;lt; min_trx_id? 成立说明事务已经提交，可以访问&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;3.&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;undo_log中的&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;trx_id &amp;gt; max_trx_id? 成立说明该事务在ReadView生成后才开启，不允许访问&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;4.min_trx_id &amp;lt;= trx_id &amp;lt;= max_trx_id 成立则判断是否在当前活跃事务m_ids中，不存在说明已提交，可以访问&lt;br&gt;&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=9;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="300" y="2140" width="590" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
