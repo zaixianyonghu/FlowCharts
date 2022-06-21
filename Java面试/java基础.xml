@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T06:35:34.902Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Vg2qJco1-YQNZ_Z8km4w" version="20.0.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-06-21T06:47:11.005Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="ddQuHhaKx6oqKk4dt-Gp" version="20.0.1" type="github" pages="5">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1298" dy="3181" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -1643,7 +1643,7 @@
         <mxCell id="D7XyncB5rPK2taSGHUYp-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="D7XyncB5rPK2taSGHUYp-8" target="D7XyncB5rPK2taSGHUYp-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="D7XyncB5rPK2taSGHUYp-8" value="ReadView" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="D7XyncB5rPK2taSGHUYp-8" value="ReadView&lt;br&gt;读视图" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="335" y="2500" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="D7XyncB5rPK2taSGHUYp-10" value="&lt;span style=&quot;text-align: center;&quot;&gt;ReadView&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;快照读&lt;/font&gt;，快照读就是Select查询，&lt;font color=&quot;#ff0000&quot;&gt;当前读&lt;/font&gt;指代执行下列语句时进行数据读取的方式，insert、update、delete、select...for update、select...lock in share mode&lt;br&gt;&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=9;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
@@ -1664,7 +1664,7 @@
         <mxCell id="D7XyncB5rPK2taSGHUYp-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="D7XyncB5rPK2taSGHUYp-16" target="D7XyncB5rPK2taSGHUYp-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="D7XyncB5rPK2taSGHUYp-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.094;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;" edge="1" parent="1" source="D7XyncB5rPK2taSGHUYp-16" target="D7XyncB5rPK2taSGHUYp-32">
+        <mxCell id="D7XyncB5rPK2taSGHUYp-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="D7XyncB5rPK2taSGHUYp-16" target="D7XyncB5rPK2taSGHUYp-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D7XyncB5rPK2taSGHUYp-16" value="读已提交(RC)级别" style="whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
@@ -1680,7 +1680,7 @@
           <mxGeometry x="300" y="2120" width="610" height="90" as="geometry" />
         </mxCell>
         <mxCell id="D7XyncB5rPK2taSGHUYp-28" value="可重复读(RR)级别，第一次执行快照读时生成ReadView，后续快照复用" style="whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="130" y="2420" width="120" height="60" as="geometry" />
+          <mxGeometry x="120" y="2440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="D7XyncB5rPK2taSGHUYp-30" value="在每一次执行快照读时生成ReadView&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;解决了不可重复读和幻读的问题&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#000000;align=left;" vertex="1" parent="1">
           <mxGeometry x="260" y="2250" width="160" height="60" as="geometry" />
