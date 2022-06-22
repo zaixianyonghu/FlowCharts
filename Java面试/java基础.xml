@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-22T07:18:25.687Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="8QPuoUoNI-aIpgODOZhY" version="20.0.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-06-22T07:46:54.735Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="R5-Kup6lj2-4Q8pk2DBg" version="20.0.1" type="github" pages="5">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1298" dy="3181" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -1750,8 +1750,8 @@
             <mxPoint x="400" y="2740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IjkGfNkFtSZxwtlCS9h2-11" value="树的结构" style="swimlane;fontColor=#FF3333;startSize=20;" vertex="1" parent="1">
-          <mxGeometry x="680" y="2670" width="860" height="510" as="geometry" />
+        <mxCell id="IjkGfNkFtSZxwtlCS9h2-11" value="树的结构" style="swimlane;fontColor=#000000;startSize=20;" vertex="1" parent="1">
+          <mxGeometry x="670" y="2710" width="950" height="540" as="geometry" />
         </mxCell>
         <mxCell id="IjkGfNkFtSZxwtlCS9h2-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="IjkGfNkFtSZxwtlCS9h2-11" source="IjkGfNkFtSZxwtlCS9h2-12" target="IjkGfNkFtSZxwtlCS9h2-26">
           <mxGeometry relative="1" as="geometry" />
@@ -1797,8 +1797,11 @@
         <mxCell id="IjkGfNkFtSZxwtlCS9h2-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="IjkGfNkFtSZxwtlCS9h2-11" source="IjkGfNkFtSZxwtlCS9h2-19" target="IjkGfNkFtSZxwtlCS9h2-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IjkGfNkFtSZxwtlCS9h2-26" value="&lt;div&gt;B+树所有的叶子节点包含所有的索引字段&lt;/div&gt;&lt;div&gt;B+树是应文件系统所需而产生的 B 树的变形树。B+ 树的特征：&lt;/div&gt;&lt;div&gt;1.有 m 个子树的中间节点包含有 m 个元素（B 树中是 k-1 个元素），每个元素不保存数据，只用来索引。&lt;/div&gt;&lt;div&gt;2.所有的叶子结点中包含了全部关键字的信息，及指向含有这些关键字记录的指针，且叶子结点本身依关键字的大小自小而大的顺序链接。而 B 树的叶子节点并没有包括全部需要查找的信息。&lt;/div&gt;&lt;div&gt;3.所有的非终端结点可以看成是索引部分，结点中仅含有其子树根结点中最大（或最小）关键字。而 B 树的非终节点也包含需要查找的有效信息。例如下图中的根节点 8 是左子树中最大的元素，15 是右子树中最大的元素。&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#000000;align=left;" vertex="1" parent="IjkGfNkFtSZxwtlCS9h2-11">
-          <mxGeometry x="140" y="380" width="700" height="110" as="geometry" />
+        <mxCell id="IjkGfNkFtSZxwtlCS9h2-26" value="&lt;div&gt;B+树所有的叶子节点包含所有的索引字段&lt;/div&gt;&lt;div&gt;B+树是应文件系统所需而产生的 B 树的变形树。B+ 树的特征：&lt;/div&gt;&lt;div&gt;&lt;div&gt;1.每个结点至多有m个子女;&lt;/div&gt;&lt;div&gt;2.非根节点关键值个数范围：m/2 &amp;lt;= k &amp;lt;= m-1&lt;/div&gt;&lt;div&gt;3.相邻叶子节点是通过指针连起来的，并且是关键字大小排序的&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#000000;align=left;" vertex="1" parent="IjkGfNkFtSZxwtlCS9h2-11">
+          <mxGeometry x="140" y="395" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IjkGfNkFtSZxwtlCS9h2-34" value="&lt;div style=&quot;text-align: left;&quot;&gt;B数的相关概念&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;阶数：一个节点最多有多少个孩子节点。（一般用字母m表示）&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;关键字：节点上的数值就是关键字&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;度：一个节点拥有的子节点的数量。&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="IjkGfNkFtSZxwtlCS9h2-11">
+          <mxGeometry x="571" y="240" width="349" height="70" as="geometry" />
         </mxCell>
         <mxCell id="IjkGfNkFtSZxwtlCS9h2-28" value="每个索引节点是一个&lt;font color=&quot;#ff0000&quot;&gt;索引页&lt;/font&gt;默认是16kb" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="2880" width="120" height="40" as="geometry" />
