@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-22T08:14:37.127Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="muU_eqTz6wpamejobcV0" version="20.0.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-06-22T08:46:58.903Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="9aIFopzsFWqdA2yINQm4" version="20.0.1" type="github" pages="5">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1298" dy="3181" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -919,7 +919,7 @@
         <mxCell id="bXP1u7icdx5Lron2qo3i-3" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" parent="1" source="bXP1u7icdx5Lron2qo3i-1" target="bXP1u7icdx5Lron2qo3i-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bXP1u7icdx5Lron2qo3i-1" value="现成的生命周期和状态" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" parent="1" vertex="1">
+        <mxCell id="bXP1u7icdx5Lron2qo3i-1" value="线程的生命周期和状态" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" parent="1" vertex="1">
           <mxGeometry x="715.38" y="-1785" width="66.25" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bXP1u7icdx5Lron2qo3i-5" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" parent="1" source="bXP1u7icdx5Lron2qo3i-2" target="bXP1u7icdx5Lron2qo3i-4" edge="1">
