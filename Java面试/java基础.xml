@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-23T15:36:56.519Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="gVQlfjUdvxyCX51Pw9kh" version="20.0.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-06-23T15:52:33.111Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="_Eir6mlx7o5XADjAAcRO" version="20.0.1" type="github" pages="5">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1298" dy="4350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -1516,8 +1516,8 @@
         <mxCell id="5zf_qSbV4XC04WPgUzqw-1" value="缓存穿透" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="360" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5zf_qSbV4XC04WPgUzqw-2" value="在缓存中查不到，在数据库中也查不到，导致一直查询数据库，使数据库负担增加&lt;br&gt;select&amp;nbsp; * from id=-1;&lt;br&gt;1.对参数进行合法校验&lt;br&gt;2.把无效的数据也存到redis里" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=13;align=left;" vertex="1" parent="1">
-          <mxGeometry x="240" y="360" width="430" height="110" as="geometry" />
+        <mxCell id="5zf_qSbV4XC04WPgUzqw-2" value="在缓存中查不到，在数据库中也查不到，导致一直查询数据库，使数据库负担增加&lt;br&gt;select&amp;nbsp; * from id=-1;&lt;br&gt;1.对参数进行合法校验&lt;br&gt;2.把无效的数据也存到redis里，防止Redis被无效的key沾满，这一类数据的过期时间要短&lt;br&gt;3.在redis之前增加一个BloomFilter" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=13;align=left;" vertex="1" parent="1">
+          <mxGeometry x="240" y="360" width="480" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
