@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-23T15:14:16.970Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="LhfM9ai0XlCilXqNxxOx" version="20.0.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-06-23T15:36:56.519Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="gVQlfjUdvxyCX51Pw9kh" version="20.0.1" type="github" pages="5">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1298" dy="4350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -1467,7 +1467,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rAUnJ1PRIwO4fAHfJwu_" name="redis1">
-    <mxGraphModel dx="1298" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1298" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1512,6 +1512,12 @@
         </mxCell>
         <mxCell id="HU0QKMfYQcFe0rmrT9pp-18" value="&lt;b&gt;常识&lt;br&gt;&lt;/b&gt;磁盘指标&lt;br&gt;1.寻址时间：ms级&lt;br&gt;2.带宽：单位时间多少字节流过去，G/M 每秒&lt;br&gt;&lt;br&gt;内存&lt;br&gt;1.寻址：ns&lt;br&gt;2.带宽：&lt;br&gt;秒-&amp;gt;毫秒-&amp;gt;微妙-&amp;gt;纳秒，磁盘在寻址上满了10万倍&lt;br&gt;&lt;br&gt;I/O buffer 成本问题&lt;br&gt;磁盘有磁道和扇区，一个扇区有512Byte，如果按扇区读的话索引成本很大&lt;br&gt;操作系统无论读多少都是从磁盘读取4kb内容&lt;br&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=14;align=left;" vertex="1" parent="1">
           <mxGeometry x="20" y="10" width="420" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="5zf_qSbV4XC04WPgUzqw-1" value="缓存穿透" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5zf_qSbV4XC04WPgUzqw-2" value="在缓存中查不到，在数据库中也查不到，导致一直查询数据库，使数据库负担增加&lt;br&gt;select&amp;nbsp; * from id=-1;&lt;br&gt;1.对参数进行合法校验&lt;br&gt;2.把无效的数据也存到redis里" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=13;align=left;" vertex="1" parent="1">
+          <mxGeometry x="240" y="360" width="430" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
