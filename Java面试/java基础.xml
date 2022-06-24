@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-24T07:47:51.561Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="gzDNJQWNdCF7Lp--d7hm" version="20.0.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-06-24T07:52:09.078Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="OHBdg7cGI0R8YIEAkd_u" version="20.0.1" type="github" pages="6">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1298" dy="4375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -1436,8 +1436,8 @@
         <mxCell id="ZxYYScs4IVD2EMfE-dh--56" value="DiscardOldestPolicy：丢弃队列最前面的任务，然后重新提交被拒绝的任务。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;size=10;" vertex="1" parent="1">
           <mxGeometry x="400" y="-1270" width="415" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="ZxYYScs4IVD2EMfE-dh--57" value="CallerRunsPolicy：由调用线程处理该任务。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;size=10;" vertex="1" parent="1">
-          <mxGeometry x="400" y="-1220" width="240" height="30" as="geometry" />
+        <mxCell id="ZxYYScs4IVD2EMfE-dh--57" value="CallerRunsPolicy：由当前线程处理该任务，不会丢失任务" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;size=10;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-1220" width="320" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
