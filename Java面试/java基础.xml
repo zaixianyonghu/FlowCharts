@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-24T10:31:51.428Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Vf0H6Gi-SimJDtAO-fIr" version="20.0.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-06-24T10:32:39.961Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="TQqqraEQZBp6ZFwRX6xk" version="20.0.1" type="github" pages="7">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1298" dy="4375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -1404,7 +1404,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZxYYScs4IVD2EMfE-dh--36" value="工作队列" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="-1210" width="120" height="40" as="geometry" />
+          <mxGeometry x="300" y="-1180" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZxYYScs4IVD2EMfE-dh--58" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZxYYScs4IVD2EMfE-dh--37" target="ZxYYScs4IVD2EMfE-dh--54">
           <mxGeometry relative="1" as="geometry" />
@@ -1419,7 +1419,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZxYYScs4IVD2EMfE-dh--37" value="拒绝策略" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="-940" width="120" height="40" as="geometry" />
+          <mxGeometry x="300" y="-930" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZxYYScs4IVD2EMfE-dh--44" value="ArrayBlockingQueue 数组型阻塞队列：数组结构，初始化时传入大小，有界，FIFO，使用一个重入锁，默认使用非公平锁，入队和出队共用一个锁，互斥" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;align=left;" vertex="1" parent="1">
           <mxGeometry x="500" y="-1320" width="430" height="40" as="geometry" />
