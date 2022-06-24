@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-24T08:25:29.621Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="-ir314PfiTuPzQA6qmoN" version="20.0.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-06-24T08:57:42.355Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Hh7_Mc2YzPMHxrJKQQEw" version="20.0.1" type="github" pages="7">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1298" dy="4375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -1636,13 +1636,13 @@
           <mxGeometry x="40" y="390" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5zf_qSbV4XC04WPgUzqw-2" value="在缓存中查不到，在数据库中也查不到，导致一直查询数据库，使数据库负担增加&lt;br&gt;select&amp;nbsp; * from id=-1;&lt;br&gt;1.对参数进行合法校验&lt;br&gt;2.把无效的数据也存到redis里，防止Redis被无效的key沾满，这一类数据的过期时间要短&lt;br&gt;3.在redis之前增加一个BloomFilter，如果布隆过滤器判断不在集合中，一定不在，如果判断存在的话，可能有一定的误判率" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=13;align=left;" vertex="1" parent="1">
-          <mxGeometry x="240" y="360" width="480" height="100" as="geometry" />
+          <mxGeometry x="200" y="360" width="480" height="100" as="geometry" />
         </mxCell>
         <mxCell id="5zf_qSbV4XC04WPgUzqw-8" value="缓存击穿" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="510" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5zf_qSbV4XC04WPgUzqw-9" value="缓存中没有，库中有，一般是缓存过期了，问题是重新写入缓存需要时间，高并发场景下过多的db压力过大" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=13;align=left;" vertex="1" parent="1">
-          <mxGeometry x="200" y="500" width="480" height="100" as="geometry" />
+        <mxCell id="5zf_qSbV4XC04WPgUzqw-9" value="缓存中没有，库中有，一般是缓存过期了，问题是重新写入缓存需要时间，高并发场景下过多的db压力过大&lt;br&gt;解决方案：设置一个理论的过期时间，另起一个线程更新数据" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=13;align=left;" vertex="1" parent="1">
+          <mxGeometry x="200" y="500" width="480" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -2300,7 +2300,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="xZkLqHY_rwOoSJom6NkQ" name="第 7 页">
+  <diagram id="xZkLqHY_rwOoSJom6NkQ" name="消息队列">
     <mxGraphModel dx="1298" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
