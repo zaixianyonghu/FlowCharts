@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-24T09:38:00.402Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="KqxQ0Yrc0mvE38L7URHP" version="20.0.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-06-24T10:24:38.404Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="uqwYnSJtAsAaXqS1jksJ" version="20.0.1" type="github" pages="7">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1298" dy="4375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -1377,16 +1377,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZxYYScs4IVD2EMfE-dh--31" value="线程池的几个参数" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="-1570" width="120" height="40" as="geometry" />
+          <mxGeometry x="140" y="-1270" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZxYYScs4IVD2EMfE-dh--32" value="核心线程数" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="-1690" width="120" height="40" as="geometry" />
+          <mxGeometry x="300" y="-1390" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZxYYScs4IVD2EMfE-dh--34" value="最大线程数" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="-1630" width="120" height="40" as="geometry" />
+          <mxGeometry x="300" y="-1330" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZxYYScs4IVD2EMfE-dh--35" value="最大空闲时间和时间单位" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="-1570" width="140" height="40" as="geometry" />
+          <mxGeometry x="300" y="-1270" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZxYYScs4IVD2EMfE-dh--49" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZxYYScs4IVD2EMfE-dh--36" target="ZxYYScs4IVD2EMfE-dh--44">
           <mxGeometry relative="1" as="geometry" />
@@ -1404,7 +1404,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZxYYScs4IVD2EMfE-dh--36" value="工作队列" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="-1510" width="120" height="40" as="geometry" />
+          <mxGeometry x="300" y="-1210" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZxYYScs4IVD2EMfE-dh--58" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZxYYScs4IVD2EMfE-dh--37" target="ZxYYScs4IVD2EMfE-dh--54">
           <mxGeometry relative="1" as="geometry" />
@@ -1419,34 +1419,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZxYYScs4IVD2EMfE-dh--37" value="拒绝策略" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="-1240" width="120" height="40" as="geometry" />
+          <mxGeometry x="300" y="-940" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZxYYScs4IVD2EMfE-dh--44" value="ArrayBlockingQueue 数组型阻塞队列：数组结构，初始化时传入大小，有界，FIFO，使用一个重入锁，默认使用非公平锁，入队和出队共用一个锁，互斥" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;align=left;" vertex="1" parent="1">
-          <mxGeometry x="400" y="-1620" width="430" height="40" as="geometry" />
+          <mxGeometry x="500" y="-1320" width="430" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZxYYScs4IVD2EMfE-dh--45" value="LinkedBlockingQueue 链表型阻塞队列：链表结构，默认初始化大小为Integer.MAX_VALUE，有界（近似无解），FIFO，使用两个重入锁分别控制元素的入队和出队，用Condition进行线程间的唤醒和等待。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;size=12;" vertex="1" parent="1">
-          <mxGeometry x="400" y="-1560" width="450" height="60" as="geometry" />
+          <mxGeometry x="500" y="-1260" width="450" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZxYYScs4IVD2EMfE-dh--46" value="SynchronousQueue 同步队列：容量为0，添加任务必须等待取出任务，这个队列相当于通道，不存储元素" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;size=10;" vertex="1" parent="1">
-          <mxGeometry x="400" y="-1480" width="440" height="40" as="geometry" />
+          <mxGeometry x="500" y="-1180" width="440" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZxYYScs4IVD2EMfE-dh--47" value="PriorityBlockingQueue 优先阻塞队列：无界，默认采用元素自然顺序升序排列。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;size=10;" vertex="1" parent="1">
-          <mxGeometry x="400" y="-1420" width="435" height="30" as="geometry" />
+          <mxGeometry x="500" y="-1120" width="435" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZxYYScs4IVD2EMfE-dh--48" value="DelayQueue 延时队列：无界，元素有过期时间，过期的元素才能被取出。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;size=10;" vertex="1" parent="1">
-          <mxGeometry x="400" y="-1370" width="430" height="30" as="geometry" />
+          <mxGeometry x="500" y="-1070" width="430" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZxYYScs4IVD2EMfE-dh--54" value="AbortPolicy：丢弃任务并抛出RejectedExecutionException异常。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;size=10;" vertex="1" parent="1">
-          <mxGeometry x="400" y="-1300" width="350" height="30" as="geometry" />
+          <mxGeometry x="500" y="-1000" width="350" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZxYYScs4IVD2EMfE-dh--55" value="DiscardPolicy：丢弃任务，但是不抛出异常。可能导致无法发现系统的异常状态。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;size=10;" vertex="1" parent="1">
-          <mxGeometry x="400" y="-1250" width="440" height="30" as="geometry" />
+          <mxGeometry x="500" y="-950" width="440" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZxYYScs4IVD2EMfE-dh--56" value="DiscardOldestPolicy：丢弃队列最前面的任务，然后重新提交被拒绝的任务。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;size=10;" vertex="1" parent="1">
-          <mxGeometry x="400" y="-1200" width="415" height="29" as="geometry" />
+          <mxGeometry x="500" y="-900" width="415" height="29" as="geometry" />
         </mxCell>
         <mxCell id="ZxYYScs4IVD2EMfE-dh--57" value="CallerRunsPolicy：由当前线程处理该任务，不会丢弃任务" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;size=10;" vertex="1" parent="1">
-          <mxGeometry x="400" y="-1150" width="320" height="30" as="geometry" />
+          <mxGeometry x="500" y="-850" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZxYYScs4IVD2EMfE-dh--63" value="继承Thread" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="-1920" width="120" height="40" as="geometry" />
@@ -1456,6 +1456,66 @@
         </mxCell>
         <mxCell id="ZxYYScs4IVD2EMfE-dh--65" value="实现Callable接口" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="-1800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="39KdsF2yJcxmTZZzieIW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="39KdsF2yJcxmTZZzieIW-1" target="39KdsF2yJcxmTZZzieIW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="39KdsF2yJcxmTZZzieIW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="39KdsF2yJcxmTZZzieIW-1" target="39KdsF2yJcxmTZZzieIW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="39KdsF2yJcxmTZZzieIW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="39KdsF2yJcxmTZZzieIW-1" target="39KdsF2yJcxmTZZzieIW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="39KdsF2yJcxmTZZzieIW-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="39KdsF2yJcxmTZZzieIW-1" target="39KdsF2yJcxmTZZzieIW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="39KdsF2yJcxmTZZzieIW-1" value="4种线程池" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-1640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="39KdsF2yJcxmTZZzieIW-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="39KdsF2yJcxmTZZzieIW-2" target="39KdsF2yJcxmTZZzieIW-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="39KdsF2yJcxmTZZzieIW-2" value="newSingleThreadExexcutor" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-1720" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="39KdsF2yJcxmTZZzieIW-15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="39KdsF2yJcxmTZZzieIW-3" target="39KdsF2yJcxmTZZzieIW-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="39KdsF2yJcxmTZZzieIW-3" value="newFixedThreadPool" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-1660" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="39KdsF2yJcxmTZZzieIW-16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="39KdsF2yJcxmTZZzieIW-4" target="39KdsF2yJcxmTZZzieIW-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="39KdsF2yJcxmTZZzieIW-4" value="newCacheThreadPool" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-1600" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="39KdsF2yJcxmTZZzieIW-17" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="39KdsF2yJcxmTZZzieIW-5" target="39KdsF2yJcxmTZZzieIW-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="39KdsF2yJcxmTZZzieIW-5" value="newScheduledThreadPool" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-1540" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="39KdsF2yJcxmTZZzieIW-10" value="单线程数的线程池（核心线程数=最大线程数=1）" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="500" y="-1720" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="39KdsF2yJcxmTZZzieIW-11" value="固定线程数的线程池（核心线程数=最大线程数=自定义）" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="500" y="-1660" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="39KdsF2yJcxmTZZzieIW-12" value="可缓存的线程池（核心线程数=0，最大线程数=Integer.MAX_VALUE）" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="500" y="-1600" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="39KdsF2yJcxmTZZzieIW-13" value="支持定时或周期任务的线程池（核心线程数=自定义，最大线程数=Integer.MAX_VALUE）" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="500" y="-1540" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="39KdsF2yJcxmTZZzieIW-19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="39KdsF2yJcxmTZZzieIW-18" target="39KdsF2yJcxmTZZzieIW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="39KdsF2yJcxmTZZzieIW-20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="39KdsF2yJcxmTZZzieIW-18" target="ZxYYScs4IVD2EMfE-dh--31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="39KdsF2yJcxmTZZzieIW-18" value="线程池" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-1480" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
