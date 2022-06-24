@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-24T09:20:08.702Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="mKMRbGcLEqnSBJKr-a1c" version="20.0.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-06-24T09:38:00.402Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="KqxQ0Yrc0mvE38L7URHP" version="20.0.1" type="github" pages="7">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1298" dy="4375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -1647,7 +1647,7 @@
         <mxCell id="5zf_qSbV4XC04WPgUzqw-8" value="缓存击穿" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="490" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5zf_qSbV4XC04WPgUzqw-9" value="缓存中没有，库中有，一般是缓存过期了，问题是重新写入缓存需要时间，高并发场景下过多的db压力过大&lt;br&gt;解决方案：1.设置一个理论的过期时间，另起一个线程更新数据&lt;br&gt;2.加载db的时候要防止并发" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=13;align=left;" vertex="1" parent="1">
+        <mxCell id="5zf_qSbV4XC04WPgUzqw-9" value="缓存中没有，库中有，一般是缓存过期了，问题是重新写入缓存需要时间，高并发场景下过多的db压力过大&lt;br&gt;解决方案：1.设置一个理论的过期时间，另起一个线程更新数据&lt;br&gt;2.单线程db写redis" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=13;align=left;" vertex="1" parent="1">
           <mxGeometry x="160" y="480" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WgoRgXllv43ESQ1F4Wyp-1" value="经典缓存查询：先查缓存，查到返回，没查到，查库，放到redis中，返回" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=10;align=left;" vertex="1" parent="1">
@@ -1659,7 +1659,7 @@
         <mxCell id="WgoRgXllv43ESQ1F4Wyp-4" value="缓存雪崩" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="570" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WgoRgXllv43ESQ1F4Wyp-5" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=13;align=left;" vertex="1" parent="1">
+        <mxCell id="WgoRgXllv43ESQ1F4Wyp-5" value="缓存雪崩跟缓存击穿类似，缓存击穿说的是热key击穿，雪崩指的是缓存大面积失效，导致数据库压力过大了&lt;br&gt;解决方案：1.缓存的失效时间分散开，设置随机值。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=13;align=left;" vertex="1" parent="1">
           <mxGeometry x="160" y="560" width="480" height="60" as="geometry" />
         </mxCell>
       </root>
