@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-25T11:36:04.132Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="L52xpuN-yyO-GfvhlCek" version="20.0.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-06-25T12:15:54.673Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="EoeC85ZMBB9pyu_6vAwE" version="20.0.1" type="github" pages="7">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1298" dy="4375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -507,7 +507,7 @@
         <mxCell id="3YaKURUqrE0tU1aqipD1-281" value="&lt;b&gt;程序计数器&lt;/b&gt;&lt;br&gt;字节码的行号指示器，用来记录线程执行到了什么位置" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" parent="3YaKURUqrE0tU1aqipD1-278" vertex="1">
           <mxGeometry x="5" y="230" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="3YaKURUqrE0tU1aqipD1-282" value="&lt;b&gt;栈&lt;/b&gt;&lt;br&gt;局部变量表&lt;br&gt;操作栈&lt;br&gt;动态链接&lt;br&gt;方法出口" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" parent="3YaKURUqrE0tU1aqipD1-278" vertex="1">
+        <mxCell id="3YaKURUqrE0tU1aqipD1-282" value="&lt;b&gt;栈&lt;/b&gt;&lt;br&gt;局部变量表&lt;br&gt;操作栈&lt;br&gt;动态链接&lt;br&gt;方法出口&lt;br&gt;一般1M或2M" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" parent="3YaKURUqrE0tU1aqipD1-278" vertex="1">
           <mxGeometry x="8" y="50" width="85" height="140" as="geometry" />
         </mxCell>
         <mxCell id="3YaKURUqrE0tU1aqipD1-283" value="&lt;b&gt;本地方法栈&lt;/b&gt;&lt;br&gt;作用跟虚拟机栈相同，区别是用来执行本地方法，即jvm和c++通信的工作" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" parent="3YaKURUqrE0tU1aqipD1-278" vertex="1">
