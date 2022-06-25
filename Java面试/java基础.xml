@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-25T06:30:29.911Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="9rgB4XQJg-rwtv9s0-OM" version="20.0.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-06-25T11:33:09.645Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="MfV1UBMk9VeRZ5UhvxIo" version="20.0.1" type="github" pages="7">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1298" dy="4375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -2501,7 +2501,7 @@
           <mxGeometry x="60" y="870" width="540" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0bYnW9gFffl5PWVSmFmq-1" value="有序&lt;br&gt;1.Kafka中单个Partition内部，一定是有序的&lt;br&gt;2.Kafka中单个Topic当中分部到不同的Partition中的数据，是不一定有序的&lt;br&gt;如何保证Topic的数据是全局有序的&lt;br&gt;1.设置该Topic只有一个Partition即可保证&lt;br&gt;2." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=15;align=left;" vertex="1" parent="1">
-          <mxGeometry x="60" y="1010" width="540" height="50" as="geometry" />
+          <mxGeometry x="60" y="1010" width="540" height="100" as="geometry" />
         </mxCell>
         <mxCell id="0bYnW9gFffl5PWVSmFmq-2" value="防止重复消费&lt;br&gt;Kafka的消息根据offset，记录消息消费到哪里，consumer消费数据之后会给Kafka自动提交一个offset的值避免重复消费&lt;br&gt;1.如果在offset提交之前consumer出现了问题可能会导致重复消费的问题&lt;br&gt;2.Partition Balance 机制把多个Balance均匀分配给 consumer group中的多个consumer，如果kafka在默认的5分钟之内没办法处理完一批消息的话会触发Kafka的Rebalance机制，导致自动提交失败，从未提交的offset上重新开始消费&lt;br&gt;&lt;br&gt;处理方法&lt;br&gt;1.提高消费端的处理性能，或者异步处理问题&lt;br&gt;2.减少一次性从broker中取出的数据量&lt;br&gt;3.把消息的唯一id存到redis中，做一个去重的操作" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="360" y="20" width="440" height="200" as="geometry" />
