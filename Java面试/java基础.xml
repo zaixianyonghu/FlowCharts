@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-25T12:15:54.673Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="EoeC85ZMBB9pyu_6vAwE" version="20.0.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-06-26T04:38:55.543Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="r4oYxMnIdk8mxfSgfauV" version="20.0.1" type="github" pages="7">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1298" dy="4375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -694,10 +694,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FEhq5FsEMODJMzkvt2nq-1" value="线程调度" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" parent="1" vertex="1">
-          <mxGeometry x="707" y="-1485" width="83" height="30" as="geometry" />
+          <mxGeometry x="700" y="-1365" width="83" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FEhq5FsEMODJMzkvt2nq-2" value="操作系统通过每个线程占用一段CPU时间实现，但是会考虑线程紧急程度和等待时间" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=0;labelBackgroundColor=none;sketch=0;" parent="1" vertex="1">
-          <mxGeometry x="817.75" y="-1500" width="132.25" height="60" as="geometry" />
+          <mxGeometry x="810.75" y="-1380" width="132.25" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hrC_9tOZgPK7Of5M-_6W-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="hrC_9tOZgPK7Of5M-_6W-2" target="hrC_9tOZgPK7Of5M-_6W-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
