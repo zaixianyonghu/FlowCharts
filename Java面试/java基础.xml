@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-26T04:38:55.543Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="r4oYxMnIdk8mxfSgfauV" version="20.0.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-06-26T04:41:10.411Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="CMGzGQ-bmrSGMM8_fknJ" version="20.0.1" type="github" pages="7">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1298" dy="4375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -1174,6 +1174,9 @@
         </mxCell>
         <mxCell id="TkRLlW_ukJUAP7FFpI78-8" value="标记整理，多线程并发的，把内存划分为多个区域，各分代不一定是连续的区域，大内存多核系统，" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=12;size=11;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
           <mxGeometry x="690" y="640" width="560" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LVGMf9BnkU4s7nUnqn5I-1" value="&lt;div&gt;Java中每一个对象都可以作为锁，这是synchronized实现同步的基础：&lt;/div&gt;&lt;div&gt;1、普通同步方法，锁是当前实例对象（this）&lt;/div&gt;&lt;div&gt;2、静态同步方法，锁是当前类的class对象&amp;nbsp;&lt;/div&gt;&lt;div&gt;3、同步代码块，锁是括号里面的对象 （自己在代码块中会使用到的对象&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-1870" width="400" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
