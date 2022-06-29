@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-28T11:18:03.145Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="AYnEpwDfWV0wn_UUWBuv" version="20.0.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-06-29T04:52:22.827Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="zY7PXFx-mgqidQmG567L" version="20.0.3" type="github" pages="7">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
-    <mxGraphModel dx="925" dy="4350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="1424" dy="4232" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1178,14 +1178,14 @@
         <mxCell id="LVGMf9BnkU4s7nUnqn5I-1" value="&lt;div&gt;Java中每一个对象都可以作为锁，这是synchronized实现同步的基础：&lt;/div&gt;&lt;div&gt;1、普通同步方法，锁是当前实例对象（this）&lt;/div&gt;&lt;div&gt;2、静态同步方法，锁是当前类的class对象&amp;nbsp;&lt;/div&gt;&lt;div&gt;3、同步代码块，锁是括号里面的对象 （自己在代码块中会使用到的对象）&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="140" y="-1870" width="400" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="FbwhlOnQjOfOB0nP2ZIt-2" value="&lt;div&gt;jps&amp;nbsp; 查看java进程&lt;/div&gt;&lt;div&gt;jinfo 查看jvm参数&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;jstat PID&lt;/div&gt;&lt;div&gt;(1)查看虚拟机性能统计信息&lt;/div&gt;&lt;div&gt;(2)查看类装载信息&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;jstack&lt;/div&gt;&lt;div&gt;(1)查看线程堆栈信息&lt;/div&gt;&lt;div&gt;(2)用法&lt;/div&gt;&lt;div&gt;jstack PID&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;jmap&lt;/div&gt;&lt;div&gt;(1)生成堆转储快照&lt;/div&gt;&lt;div&gt;(2)打印出堆内存相关信息&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+        <mxCell id="FbwhlOnQjOfOB0nP2ZIt-2" value="&lt;div&gt;jps&amp;nbsp; 查看java进程&lt;/div&gt;&lt;div&gt;jinfo 查看jvm参数&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;jstat PID&lt;/div&gt;&lt;div&gt;(1)查看虚拟机性能统计信息&lt;/div&gt;&lt;div&gt;(2)查看类装载信息&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;jstack&lt;/div&gt;&lt;div&gt;(1)查看线程堆栈信息&lt;/div&gt;&lt;div&gt;(2)用法&lt;/div&gt;&lt;div&gt;jstack PID&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;jmap&lt;/div&gt;&lt;div&gt;(1)生成堆转储快照&lt;/div&gt;&lt;div&gt;(2)打印出堆内存相关信息&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" parent="1" vertex="1">
           <mxGeometry x="623" y="2080" width="160" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="Yuk0tkyHEU3-n-yhUi4G" name="java基础2">
-    <mxGraphModel dx="1298" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="1424" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1238,7 +1238,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="oJ-X6VxfsC7BWKUwmhvF" name="java基础3">
-    <mxGraphModel dx="1298" dy="3181" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1424" dy="3063" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1527,7 +1527,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GyFKiCVr4R9SL9WbRrUE" name="Spring1">
-    <mxGraphModel dx="1298" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1424" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1652,7 +1652,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rAUnJ1PRIwO4fAHfJwu_" name="redis1">
-    <mxGraphModel dx="925" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1424" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1732,7 +1732,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="624PNGoYzg5gC-qoznSU" name="mysql">
-    <mxGraphModel dx="1298" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1424" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2380,6 +2380,63 @@
         </mxCell>
         <mxCell id="rWwtSXt5xeuL7YaaMV_u-9" value="持久性Duration" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=12;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" parent="1" vertex="1">
           <mxGeometry x="800" y="222" width="110" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="HhMje-0IdKlumahM-H00-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HhMje-0IdKlumahM-H00-2" target="HhMje-0IdKlumahM-H00-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HhMje-0IdKlumahM-H00-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HhMje-0IdKlumahM-H00-2" target="HhMje-0IdKlumahM-H00-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HhMje-0IdKlumahM-H00-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HhMje-0IdKlumahM-H00-2" target="HhMje-0IdKlumahM-H00-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HhMje-0IdKlumahM-H00-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HhMje-0IdKlumahM-H00-2" target="HhMje-0IdKlumahM-H00-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HhMje-0IdKlumahM-H00-2" value="分库分表方案" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="4160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HhMje-0IdKlumahM-H00-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HhMje-0IdKlumahM-H00-3" target="HhMje-0IdKlumahM-H00-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HhMje-0IdKlumahM-H00-3" value="水平分库" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="4010" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HhMje-0IdKlumahM-H00-4" value="&lt;div&gt;概念：以表为依据，按照业务归属不同，将不同的表拆分到不同的库中。&lt;/div&gt;&lt;div&gt;分析：到这一步，基本上就可以服务化了。&lt;/div&gt;&lt;div&gt;例如，随着业务的发展一些公用的配置表、字典表等越来越多，这时可以将这些表拆到单独的库中，甚至可以服务化。再有，随着业务的发展孵化出了一套业务模式，这时可以将相关的表拆到单独的库中，甚至可以服务化。&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="800" y="4215" width="510" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HhMje-0IdKlumahM-H00-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HhMje-0IdKlumahM-H00-6" target="HhMje-0IdKlumahM-H00-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HhMje-0IdKlumahM-H00-6" value="垂直分表" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="4380" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HhMje-0IdKlumahM-H00-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HhMje-0IdKlumahM-H00-7" target="HhMje-0IdKlumahM-H00-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HhMje-0IdKlumahM-H00-7" value="水平分表" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="4121" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HhMje-0IdKlumahM-H00-8" value="以字段为依据，按照一定策略（hash、range等），将一个表中的数据拆分到多个表中&lt;br&gt;&lt;br&gt;&lt;div&gt;场景：系统绝对并发量并没有上来，只是单表的数据量太多，影响了SQL效率，加重了CPU负担，以至于成为瓶颈。推荐：一次SQL查询优化原理分析&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;分析：表的数据量少了，单次SQL执行效率高，自然减轻了CPU的负担。&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="800" y="4092" width="540" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="HhMje-0IdKlumahM-H00-9" value="&lt;div&gt;场景：系统绝对并发量上来了，分表难以根本上解决问题，并且还没有明显的业务归属来垂直分库。&lt;/div&gt;&lt;div&gt;分析：库多了，io和cpu的压力自然可以成倍缓解。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="3860" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HhMje-0IdKlumahM-H00-10" value="以字段为依据，按照一定策略（hash、range等），将一个库中的数据拆分到多个库中&lt;br&gt;&lt;br&gt;&lt;div&gt;场景：系统绝对并发量上来了，分表难以根本上解决问题，并且还没有明显的业务归属来垂直分库。&lt;/div&gt;&lt;div&gt;分析：库多了，io和cpu的压力自然可以成倍缓解。&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="800" y="3990" width="550" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HhMje-0IdKlumahM-H00-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HhMje-0IdKlumahM-H00-17" target="HhMje-0IdKlumahM-H00-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HhMje-0IdKlumahM-H00-17" value="垂直分库" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="4240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HhMje-0IdKlumahM-H00-18" value="&lt;div&gt;概念：以字段为依据，按照字段的活跃性，将表中字段拆到不同的表（主表和扩展表）中。&lt;/div&gt;&lt;div&gt;场景：系统绝对并发量并没有上来，表的记录并不多，但是字段多，并且热点数据和非热点数据在一起，单行数据所需的存储空间较大。以至于数据库缓存的数据行减少，查询时会去读磁盘数据产生大量的随机读IO，产生IO瓶颈。&lt;/div&gt;&lt;div&gt;分析：可以用列表页和详情页来帮助理解。垂直分表的拆分原则是将热点数据（可能会冗余经常一起查询的数据）放在一起作为主表，非热点数据放在一起作为扩展表。这样更多的热点数据就能被缓存下来，进而减少了随机读IO。拆了之后，要想获得全部数据就需要关联两个表来取数据。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;但记住，千万别用join，因为join不仅会增加CPU负担并且会讲两个表耦合在一起（必须在一个数据库实例上）。关联数据，应该在业务Service层做文章，分别获取主表和扩展表数据然后用关联字段关联得到全部数据。&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="800" y="4335" width="620" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="HhMje-0IdKlumahM-H00-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HhMje-0IdKlumahM-H00-18" target="HhMje-0IdKlumahM-H00-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
