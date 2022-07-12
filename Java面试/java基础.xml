@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-12T12:27:18.324Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="rNZuMev6ZmAEbwU1XiHw" version="20.0.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-07-12T12:27:50.207Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="H0_DZvJF3B-mYOdIwE02" version="20.0.4" type="github" pages="9">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1424" dy="3098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -2736,7 +2736,7 @@
           <mxGeometry x="720" y="640" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tAtObS8HBFfpvOoRc8v1-18" value="减少IO时的数据包大小，包括采用轻量级的通信协议、合适的数据结构、去掉接口中的多余字段、减少缓存key的大小、压缩缓存value等。" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="840" width="385" height="30" as="geometry" />
+          <mxGeometry x="720" y="840" width="740" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tAtObS8HBFfpvOoRc8v1-19" value="减少IO次数，比如数据库和缓存的批量读写、RPC的批量接口支持、或者通过冗余数据的方式干掉RPC调用。" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="790" width="590" height="30" as="geometry" />
@@ -2745,13 +2745,13 @@
           <mxGeometry x="720" y="690" width="480" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tAtObS8HBFfpvOoRc8v1-21" value="程序逻辑优化，比如将大概率阻断执行流程的判断逻辑前置、For循环的计算逻辑优化，或者采用更高效的算法。" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="890" width="385" height="30" as="geometry" />
+          <mxGeometry x="720" y="890" width="600" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tAtObS8HBFfpvOoRc8v1-22" value="各种池化技术的使用和池大小的设置，包括HTTP请求池、线程池（考虑CPU密集型还是IO密集型设置核心参数）、数据库和Redis连接池等。" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="940" width="385" height="30" as="geometry" />
+          <mxGeometry x="720" y="940" width="760" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tAtObS8HBFfpvOoRc8v1-23" value="JVM优化，包括新生代和老年代的大小、GC算法的选择等，尽可能减少GC频率和耗时。" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="990" width="385" height="30" as="geometry" />
+          <mxGeometry x="720" y="990" width="490" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tAtObS8HBFfpvOoRc8v1-24" value="&lt;div&gt;锁选择，读多写少的场景用乐观锁，或者考虑通过分段锁的方式减少锁冲突。上述方案无外乎从计算和 IO 两个维度考虑所有可能的优化点，需要有配套的监控系统实时了解当前的性能表现，并支撑你进行性能瓶颈分析，然后再遵循二八原则，抓主要矛盾进行优化。&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="1040" width="720" height="30" as="geometry" />
