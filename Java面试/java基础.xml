@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-12T12:27:50.207Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="H0_DZvJF3B-mYOdIwE02" version="20.0.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-07-12T12:29:25.550Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="rJ0oUK0vo-p7p3bwnui-" version="20.0.4" type="github" pages="9">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1424" dy="3098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -2796,7 +2796,7 @@
           <mxGeometry x="720" y="1840" width="520" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HHlMXqKSPNWDc_goAv9s-15" value="业务层的拆分：最常见的是按照业务维度拆（比如电商场景的商品服务、订单服务等），也可以按照核心接口和非核心接口拆，还可以按照请求源拆（比如To C和To B，APP和H5）。" style="whiteSpace=wrap;html=1;fontSize=12;align=left;" vertex="1" parent="1">
-          <mxGeometry x="720" y="1920" width="970" height="30" as="geometry" />
+          <mxGeometry x="720" y="1900" width="970" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
