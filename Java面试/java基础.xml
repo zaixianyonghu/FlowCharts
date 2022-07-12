@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-12T12:45:28.335Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="hn7S_jQzlToxG1Wtr5l9" version="20.0.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-07-12T12:45:47.748Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="2oEJc2ljNvpa1LmZmIZA" version="20.0.4" type="github" pages="9">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1424" dy="3098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -2789,8 +2789,8 @@
         <mxCell id="tAtObS8HBFfpvOoRc8v1-19" value="11.减少IO次数，比如数据库和缓存的批量读写、RPC的批量接口支持、或者通过冗余数据的方式干掉RPC调用。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="720" y="780" width="610" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tAtObS8HBFfpvOoRc8v1-20" value="9.预计算，比如抢红包场景，可以提前计算好红包金额缓存起来，发红包时直接使用即可。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="720" y="430" width="480" height="30" as="geometry" />
+        <mxCell id="tAtObS8HBFfpvOoRc8v1-20" value="9.预计算，比如春节抢红包场景，可以提前计算好红包金额缓存起来，发红包时直接使用即可。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="430" width="510" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tAtObS8HBFfpvOoRc8v1-21" value="13.程序逻辑优化，比如将大概率阻断执行流程的判断逻辑前置、For循环的计算逻辑优化，或者采用更高效的算法。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="720" y="630" width="620" height="30" as="geometry" />
