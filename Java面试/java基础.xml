@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-12T12:43:50.792Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="9JP6IjwOk5cmdegir_mZ" version="20.0.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-07-12T12:45:06.550Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="aMgpcIC4gYZfmdJunnCj" version="20.0.4" type="github" pages="9">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1424" dy="3098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -2760,28 +2760,28 @@
           <mxGeometry x="720" y="280" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tAtObS8HBFfpvOoRc8v1-10" value="2.多级缓存，包括静态数据使用CDN、本地缓存、分布式缓存等，以及对缓存场景中的热点key、缓存穿透、缓存并发、数据一致性等问题的处理。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="720" y="330" width="780" height="30" as="geometry" />
+          <mxGeometry x="720" y="380" width="780" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tAtObS8HBFfpvOoRc8v1-11" value="4.分库分表和索引优化，以及借助搜索引擎解决复杂查询问题。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="720" y="530" width="340" height="30" as="geometry" />
+          <mxGeometry x="720" y="730" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tAtObS8HBFfpvOoRc8v1-12" value="3.考虑NoSQL数据库的使用，比如HBase、Redis等，但是团队必须熟悉这些组件，且有较强的运维能力。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="720" y="480" width="570" height="30" as="geometry" />
+          <mxGeometry x="720" y="330" width="570" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tAtObS8HBFfpvOoRc8v1-13" value="5.异步化，将次要流程通过多线程、MQ、甚至延时任务进行异步处理。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="720" y="580" width="380" height="30" as="geometry" />
+          <mxGeometry x="720" y="530" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tAtObS8HBFfpvOoRc8v1-14" value="6.限流，需要先考虑业务是否允许限流（比如秒杀场景是允许的），包括前端限流、Nginx接入层的限流、服务端的限流。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="720" y="880" width="670" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tAtObS8HBFfpvOoRc8v1-15" value="10.缓存预热，通过异步任务提前预热数据到本地缓存或者分布式缓存中。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="720" y="430" width="400" height="30" as="geometry" />
+          <mxGeometry x="720" y="480" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tAtObS8HBFfpvOoRc8v1-16" value="7.对流量进行削峰填谷，通过MQ承接流量。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="720" y="630" width="250" height="30" as="geometry" />
+          <mxGeometry x="720" y="580" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tAtObS8HBFfpvOoRc8v1-17" value="8.并发处理，通过多线程将串行逻辑并行化。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="720" y="730" width="240" height="30" as="geometry" />
+          <mxGeometry x="720" y="680" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tAtObS8HBFfpvOoRc8v1-18" value="12.减少IO时的数据包大小，包括采用轻量级的通信协议、合适的数据结构、去掉接口中的多余字段、减少缓存key的大小、压缩缓存value等。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="720" y="830" width="760" height="30" as="geometry" />
@@ -2790,10 +2790,10 @@
           <mxGeometry x="720" y="780" width="610" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tAtObS8HBFfpvOoRc8v1-20" value="9.预计算，比如抢红包场景，可以提前计算好红包金额缓存起来，发红包时直接使用即可。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="720" y="380" width="480" height="30" as="geometry" />
+          <mxGeometry x="720" y="430" width="480" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tAtObS8HBFfpvOoRc8v1-21" value="13.程序逻辑优化，比如将大概率阻断执行流程的判断逻辑前置、For循环的计算逻辑优化，或者采用更高效的算法。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="720" y="680" width="620" height="30" as="geometry" />
+          <mxGeometry x="720" y="630" width="620" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tAtObS8HBFfpvOoRc8v1-22" value="14.各种池化技术的使用和池大小的设置，包括HTTP请求池、线程池（考虑CPU密集型还是IO密集型设置核心参数）、数据库和Redis连接池等。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="720" y="930" width="780" height="30" as="geometry" />
