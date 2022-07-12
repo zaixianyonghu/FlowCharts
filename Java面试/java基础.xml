@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-12T12:33:49.515Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="BXDfZDI35rv6xbR3gid3" version="20.0.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-07-12T12:37:34.976Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="EXewXsRrMBZ-Jhe92trW" version="20.0.4" type="github" pages="9">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1424" dy="3098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -2708,52 +2708,52 @@
         <mxCell id="tAtObS8HBFfpvOoRc8v1-7" value="高性能的实践方案" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tAtObS8HBFfpvOoRc8v1-9" value="集群部署，通过负载均衡减轻单机压力" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="tAtObS8HBFfpvOoRc8v1-9" value="1.集群部署，通过负载均衡减轻单机压力" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="720" y="280" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tAtObS8HBFfpvOoRc8v1-10" value="多级缓存，包括静态数据使用CDN、本地缓存、分布式缓存等，以及对缓存场景中的热点key、缓存穿透、缓存并发、数据一致性等问题的处理。" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="330" width="390" height="30" as="geometry" />
+        <mxCell id="tAtObS8HBFfpvOoRc8v1-10" value="2.多级缓存，包括静态数据使用CDN、本地缓存、分布式缓存等，以及对缓存场景中的热点key、缓存穿透、缓存并发、数据一致性等问题的处理。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="330" width="780" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tAtObS8HBFfpvOoRc8v1-11" value="分库分表和索引优化，以及借助搜索引擎解决复杂查询问题。" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="380" width="330" height="30" as="geometry" />
+        <mxCell id="tAtObS8HBFfpvOoRc8v1-11" value="4.分库分表和索引优化，以及借助搜索引擎解决复杂查询问题。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="430" width="340" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tAtObS8HBFfpvOoRc8v1-12" value="考虑NoSQL数据库的使用，比如HBase、Redis等，但是团队必须熟悉这些组件，且有较强的运维能力。" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="430" width="290" height="30" as="geometry" />
+        <mxCell id="tAtObS8HBFfpvOoRc8v1-12" value="3.考虑NoSQL数据库的使用，比如HBase、Redis等，但是团队必须熟悉这些组件，且有较强的运维能力。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="380" width="570" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tAtObS8HBFfpvOoRc8v1-13" value="异步化，将次要流程通过多线程、MQ、甚至延时任务进行异步处理。" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tAtObS8HBFfpvOoRc8v1-13" value="5.异步化，将次要流程通过多线程、MQ、甚至延时任务进行异步处理。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="720" y="480" width="380" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tAtObS8HBFfpvOoRc8v1-14" value="限流，需要先考虑业务是否允许限流（比如秒杀场景是允许的），包括前端限流、Nginx接入层的限流、服务端的限流。" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="530" width="640" height="30" as="geometry" />
+        <mxCell id="tAtObS8HBFfpvOoRc8v1-14" value="6.限流，需要先考虑业务是否允许限流（比如秒杀场景是允许的），包括前端限流、Nginx接入层的限流、服务端的限流。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="530" width="670" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tAtObS8HBFfpvOoRc8v1-15" value="缓存预热，通过异步任务提前预热数据到本地缓存或者分布式缓存中。" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="740" width="380" height="30" as="geometry" />
+        <mxCell id="tAtObS8HBFfpvOoRc8v1-15" value="10.缓存预热，通过异步任务提前预热数据到本地缓存或者分布式缓存中。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="740" width="400" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tAtObS8HBFfpvOoRc8v1-16" value="对流量进行削峰填谷，通过MQ承接流量。" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="584.5" width="230" height="30" as="geometry" />
+        <mxCell id="tAtObS8HBFfpvOoRc8v1-16" value="7.对流量进行削峰填谷，通过MQ承接流量。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="584.5" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tAtObS8HBFfpvOoRc8v1-17" value="并发处理，通过多线程将串行逻辑并行化。" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tAtObS8HBFfpvOoRc8v1-17" value="8.并发处理，通过多线程将串行逻辑并行化。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="720" y="640" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tAtObS8HBFfpvOoRc8v1-18" value="减少IO时的数据包大小，包括采用轻量级的通信协议、合适的数据结构、去掉接口中的多余字段、减少缓存key的大小、压缩缓存value等。" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="840" width="740" height="30" as="geometry" />
+        <mxCell id="tAtObS8HBFfpvOoRc8v1-18" value="12.减少IO时的数据包大小，包括采用轻量级的通信协议、合适的数据结构、去掉接口中的多余字段、减少缓存key的大小、压缩缓存value等。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="840" width="760" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tAtObS8HBFfpvOoRc8v1-19" value="减少IO次数，比如数据库和缓存的批量读写、RPC的批量接口支持、或者通过冗余数据的方式干掉RPC调用。" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="790" width="590" height="30" as="geometry" />
+        <mxCell id="tAtObS8HBFfpvOoRc8v1-19" value="11.减少IO次数，比如数据库和缓存的批量读写、RPC的批量接口支持、或者通过冗余数据的方式干掉RPC调用。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="790" width="610" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tAtObS8HBFfpvOoRc8v1-20" value="预计算，比如抢红包场景，可以提前计算好红包金额缓存起来，发红包时直接使用即可。" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tAtObS8HBFfpvOoRc8v1-20" value="9.预计算，比如抢红包场景，可以提前计算好红包金额缓存起来，发红包时直接使用即可。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="720" y="690" width="480" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tAtObS8HBFfpvOoRc8v1-21" value="程序逻辑优化，比如将大概率阻断执行流程的判断逻辑前置、For循环的计算逻辑优化，或者采用更高效的算法。" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="890" width="600" height="30" as="geometry" />
+        <mxCell id="tAtObS8HBFfpvOoRc8v1-21" value="13.程序逻辑优化，比如将大概率阻断执行流程的判断逻辑前置、For循环的计算逻辑优化，或者采用更高效的算法。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="890" width="620" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tAtObS8HBFfpvOoRc8v1-22" value="各种池化技术的使用和池大小的设置，包括HTTP请求池、线程池（考虑CPU密集型还是IO密集型设置核心参数）、数据库和Redis连接池等。" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="940" width="760" height="30" as="geometry" />
+        <mxCell id="tAtObS8HBFfpvOoRc8v1-22" value="14.各种池化技术的使用和池大小的设置，包括HTTP请求池、线程池（考虑CPU密集型还是IO密集型设置核心参数）、数据库和Redis连接池等。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="940" width="780" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tAtObS8HBFfpvOoRc8v1-23" value="JVM优化，包括新生代和老年代的大小、GC算法的选择等，尽可能减少GC频率和耗时。" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tAtObS8HBFfpvOoRc8v1-23" value="15.JVM优化，包括新生代和老年代的大小、GC算法的选择等，尽可能减少GC频率和耗时。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="720" y="990" width="490" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tAtObS8HBFfpvOoRc8v1-24" value="&lt;div&gt;锁选择，读多写少的场景用乐观锁，或者考虑通过分段锁的方式减少锁冲突。上述方案无外乎从计算和 IO 两个维度考虑所有可能的优化点，需要有配套的监控系统实时了解当前的性能表现，并支撑你进行性能瓶颈分析，然后再遵循二八原则，抓主要矛盾进行优化。&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tAtObS8HBFfpvOoRc8v1-24" value="&lt;div&gt;16.锁选择，读多写少的场景用乐观锁，或者考虑通过分段锁的方式减少锁冲突。上述方案无外乎从计算和 IO 两个维度考虑所有可能的优化点，需要有配套的监控系统实时了解当前的性能表现，并支撑你进行性能瓶颈分析，然后再遵循二八原则，抓主要矛盾进行优化。&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="720" y="1040" width="720" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HHlMXqKSPNWDc_goAv9s-1" value="高可用的实践方案&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, &amp;quot;PingFang SC&amp;quot;, Cambria, Cochin, Georgia, Times, &amp;quot;Times New Roman&amp;quot;, serif; font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;高可用的方案主要从冗余、取舍、系统运维3个方向考虑，同时需要有配套的值班机制和故障处理流程，当出现线上问题时，可及时跟进处理。&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;fontSize=12;" vertex="1" parent="1">
