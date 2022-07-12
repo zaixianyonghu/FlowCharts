@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-12T12:48:59.408Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="n_L1iquTRZkrRFbtDVTp" version="20.0.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-07-12T12:52:41.253Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="wn0l0ABO5vAukGE_y_36" version="20.0.4" type="github" pages="9">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1424" dy="3098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -2757,7 +2757,7 @@
           <mxGeometry x="530" y="380" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tAtObS8HBFfpvOoRc8v1-9" value="1.集群部署，通过负载均衡减轻单机压力" style="whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="720" y="280" width="220" height="30" as="geometry" />
+          <mxGeometry x="720" y="1070" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tAtObS8HBFfpvOoRc8v1-10" value="2.多级缓存，包括静态数据使用CDN、本地缓存、分布式缓存等，以及对缓存场景中的热点key、缓存穿透、缓存并发、数据一致性等问题的处理。" style="whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="720" y="380" width="780" height="30" as="geometry" />
@@ -2771,7 +2771,7 @@
         <mxCell id="tAtObS8HBFfpvOoRc8v1-13" value="5.异步化，将次要流程通过多线程、MQ、甚至延时任务进行异步处理。" style="whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="720" y="530" width="380" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tAtObS8HBFfpvOoRc8v1-14" value="6.限流，需要先考虑业务是否允许限流（比如秒杀场景是允许的），包括前端限流、Nginx接入层的限流、服务端的限流。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="tAtObS8HBFfpvOoRc8v1-14" value="6.限流，需要先考虑业务是否允许限流（比如秒杀场景是允许的），包括前端限流、Nginx接入层的限流、服务端的限流。" style="whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="720" y="920" width="650" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tAtObS8HBFfpvOoRc8v1-15" value="10.缓存预热，通过异步任务提前预热数据到本地缓存或者分布式缓存中。" style="whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
@@ -2795,10 +2795,10 @@
         <mxCell id="tAtObS8HBFfpvOoRc8v1-21" value="13.程序逻辑优化，比如将大概率阻断执行流程的判断逻辑前置、For循环的计算逻辑优化，或者采用更高效的算法。" style="whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="720" y="630" width="620" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tAtObS8HBFfpvOoRc8v1-22" value="14.各种池化技术的使用和池大小的设置，包括HTTP请求池、线程池（考虑CPU密集型还是IO密集型设置核心参数）、数据库和Redis连接池等。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="tAtObS8HBFfpvOoRc8v1-22" value="14.各种池化技术的使用和池大小的设置，包括HTTP请求池、线程池（考虑CPU密集型还是IO密集型设置核心参数）、数据库和Redis连接池等。" style="whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="720" y="970" width="770" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tAtObS8HBFfpvOoRc8v1-23" value="15.JVM优化，包括新生代和老年代的大小、GC算法的选择等，尽可能减少GC频率和耗时。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="tAtObS8HBFfpvOoRc8v1-23" value="15.JVM优化，包括新生代和老年代的大小、GC算法的选择等，尽可能减少GC频率和耗时。" style="whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="720" y="1020" width="490" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tAtObS8HBFfpvOoRc8v1-24" value="&lt;div&gt;16.锁选择，读多写少的场景用乐观锁，或者考虑通过分段锁的方式减少锁冲突。上述方案无外乎从计算和 IO 两个维度考虑所有可能的优化点，需要有配套的监控系统实时了解当前的性能表现，并支撑你进行性能瓶颈分析，然后再遵循二八原则，抓主要矛盾进行优化。&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
