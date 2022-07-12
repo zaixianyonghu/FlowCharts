@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-12T14:42:44.988Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="3cHGTpgb97OBZm42dEBW" version="20.0.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-07-12T23:30:15.389Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="DSmROReJnGZejPaUEZ5U" version="20.0.4" type="github" pages="9">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1424" dy="3098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -2481,131 +2481,131 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xZkLqHY_rwOoSJom6NkQ" name="消息队列">
-    <mxGraphModel dx="1298" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1424" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0bYnW9gFffl5PWVSmFmq-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lwHFjFLtGj5VUhkaba4d-1" target="0bYnW9gFffl5PWVSmFmq-2">
+        <mxCell id="0bYnW9gFffl5PWVSmFmq-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lwHFjFLtGj5VUhkaba4d-1" target="0bYnW9gFffl5PWVSmFmq-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lwHFjFLtGj5VUhkaba4d-1" value="消息队列如何实现顺序消费，如何防止重复消费" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lwHFjFLtGj5VUhkaba4d-1" value="消息队列如何实现顺序消费，如何防止重复消费" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="100" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tj3dOmKuga5ZePW7HIT0-1" target="Tj3dOmKuga5ZePW7HIT0-2">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Tj3dOmKuga5ZePW7HIT0-1" target="Tj3dOmKuga5ZePW7HIT0-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-1" value="消息队列应用场景" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-1" value="消息队列应用场景" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="10" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-2" value="异步处理、流量控制、服务解耦、消息广播" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-2" value="异步处理、流量控制、服务解耦、消息广播" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-4" value="1.数据延迟" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-4" value="1.数据延迟" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-6" value="cluster集群" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-6" value="cluster集群" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="200" y="420" width="330" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-7" value="服务器节点broker1" style="rounded=0;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="Tj3dOmKuga5ZePW7HIT0-6">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-7" value="服务器节点broker1" style="rounded=0;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" parent="Tj3dOmKuga5ZePW7HIT0-6" vertex="1">
           <mxGeometry x="20" y="40" width="290" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-8" value="服务器节点broker2" style="rounded=0;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="Tj3dOmKuga5ZePW7HIT0-6">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-8" value="服务器节点broker2" style="rounded=0;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" parent="Tj3dOmKuga5ZePW7HIT0-6" vertex="1">
           <mxGeometry x="20" y="150" width="290" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-10" value="topic1" style="whiteSpace=wrap;html=1;" vertex="1" parent="Tj3dOmKuga5ZePW7HIT0-6">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-10" value="topic1" style="whiteSpace=wrap;html=1;" parent="Tj3dOmKuga5ZePW7HIT0-6" vertex="1">
           <mxGeometry x="40" y="55" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-11" value="partition0 Leader" style="whiteSpace=wrap;html=1;" vertex="1" parent="Tj3dOmKuga5ZePW7HIT0-6">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-11" value="partition0 Leader" style="whiteSpace=wrap;html=1;" parent="Tj3dOmKuga5ZePW7HIT0-6" vertex="1">
           <mxGeometry x="40" y="75" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-12" value="partition1 follower" style="whiteSpace=wrap;html=1;" vertex="1" parent="Tj3dOmKuga5ZePW7HIT0-6">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-12" value="partition1 follower" style="whiteSpace=wrap;html=1;" parent="Tj3dOmKuga5ZePW7HIT0-6" vertex="1">
           <mxGeometry x="40" y="95" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-13" value="topic2" style="whiteSpace=wrap;html=1;" vertex="1" parent="Tj3dOmKuga5ZePW7HIT0-6">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-13" value="topic2" style="whiteSpace=wrap;html=1;" parent="Tj3dOmKuga5ZePW7HIT0-6" vertex="1">
           <mxGeometry x="190" y="55" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-14" value="partition0 Leader" style="whiteSpace=wrap;html=1;" vertex="1" parent="Tj3dOmKuga5ZePW7HIT0-6">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-14" value="partition0 Leader" style="whiteSpace=wrap;html=1;" parent="Tj3dOmKuga5ZePW7HIT0-6" vertex="1">
           <mxGeometry x="190" y="75" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-15" value="partition1 follower" style="whiteSpace=wrap;html=1;" vertex="1" parent="Tj3dOmKuga5ZePW7HIT0-6">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-15" value="partition1 follower" style="whiteSpace=wrap;html=1;" parent="Tj3dOmKuga5ZePW7HIT0-6" vertex="1">
           <mxGeometry x="190" y="95" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-16" value="topic1" style="whiteSpace=wrap;html=1;" vertex="1" parent="Tj3dOmKuga5ZePW7HIT0-6">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-16" value="topic1" style="whiteSpace=wrap;html=1;" parent="Tj3dOmKuga5ZePW7HIT0-6" vertex="1">
           <mxGeometry x="40" y="170" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-17" value="partition0 Leader" style="whiteSpace=wrap;html=1;" vertex="1" parent="Tj3dOmKuga5ZePW7HIT0-6">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-17" value="partition0 Leader" style="whiteSpace=wrap;html=1;" parent="Tj3dOmKuga5ZePW7HIT0-6" vertex="1">
           <mxGeometry x="40" y="190" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-18" value="partition1 follower" style="whiteSpace=wrap;html=1;" vertex="1" parent="Tj3dOmKuga5ZePW7HIT0-6">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-18" value="partition1 follower" style="whiteSpace=wrap;html=1;" parent="Tj3dOmKuga5ZePW7HIT0-6" vertex="1">
           <mxGeometry x="40" y="210" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-19" value="topic2" style="whiteSpace=wrap;html=1;" vertex="1" parent="Tj3dOmKuga5ZePW7HIT0-6">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-19" value="topic2" style="whiteSpace=wrap;html=1;" parent="Tj3dOmKuga5ZePW7HIT0-6" vertex="1">
           <mxGeometry x="190" y="170" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-20" value="partition0 follower" style="whiteSpace=wrap;html=1;" vertex="1" parent="Tj3dOmKuga5ZePW7HIT0-6">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-20" value="partition0 follower" style="whiteSpace=wrap;html=1;" parent="Tj3dOmKuga5ZePW7HIT0-6" vertex="1">
           <mxGeometry x="190" y="190" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-21" value="partition1 Leader" style="whiteSpace=wrap;html=1;" vertex="1" parent="Tj3dOmKuga5ZePW7HIT0-6">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-21" value="partition1 Leader" style="whiteSpace=wrap;html=1;" parent="Tj3dOmKuga5ZePW7HIT0-6" vertex="1">
           <mxGeometry x="190" y="210" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tj3dOmKuga5ZePW7HIT0-22" target="Tj3dOmKuga5ZePW7HIT0-11">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Tj3dOmKuga5ZePW7HIT0-22" target="Tj3dOmKuga5ZePW7HIT0-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tj3dOmKuga5ZePW7HIT0-22" target="Tj3dOmKuga5ZePW7HIT0-17">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Tj3dOmKuga5ZePW7HIT0-22" target="Tj3dOmKuga5ZePW7HIT0-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-22" value="zk" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-22" value="zk" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="550" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-28" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tj3dOmKuga5ZePW7HIT0-27" target="Tj3dOmKuga5ZePW7HIT0-18">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-28" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Tj3dOmKuga5ZePW7HIT0-27" target="Tj3dOmKuga5ZePW7HIT0-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-29" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tj3dOmKuga5ZePW7HIT0-27" target="Tj3dOmKuga5ZePW7HIT0-21">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-29" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Tj3dOmKuga5ZePW7HIT0-27" target="Tj3dOmKuga5ZePW7HIT0-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-30" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tj3dOmKuga5ZePW7HIT0-27" target="Tj3dOmKuga5ZePW7HIT0-11">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-30" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Tj3dOmKuga5ZePW7HIT0-27" target="Tj3dOmKuga5ZePW7HIT0-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-31" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tj3dOmKuga5ZePW7HIT0-27" target="Tj3dOmKuga5ZePW7HIT0-14">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-31" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Tj3dOmKuga5ZePW7HIT0-27" target="Tj3dOmKuga5ZePW7HIT0-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-27" value="producer" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-27" value="producer" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="335" y="730" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-33" value="consumer group" style="whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-33" value="consumer group" style="whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="1" vertex="1">
           <mxGeometry x="600" y="430" width="100" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-38" value="consumer1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-38" value="consumer1" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="615" y="450" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-39" value="consumer2" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-39" value="consumer2" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="615" y="480" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-40" value="group2&lt;br&gt;负载均衡" style="whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-40" value="group2&lt;br&gt;负载均衡" style="whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="1" vertex="1">
           <mxGeometry x="600" y="600" width="100" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-41" value="consumer3" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-41" value="consumer3" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="615" y="620" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-42" value="consumer4" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-42" value="consumer4" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="615" y="650" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-45" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tj3dOmKuga5ZePW7HIT0-14" target="Tj3dOmKuga5ZePW7HIT0-41">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-45" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Tj3dOmKuga5ZePW7HIT0-14" target="Tj3dOmKuga5ZePW7HIT0-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-46" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tj3dOmKuga5ZePW7HIT0-14" target="Tj3dOmKuga5ZePW7HIT0-42">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-46" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Tj3dOmKuga5ZePW7HIT0-14" target="Tj3dOmKuga5ZePW7HIT0-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-48" value="Consumer Group：消费者组，消费者组内每个消费者负责消费不同分区的数据，提高消费能力，逻辑上的一个订阅者" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=15;align=left;" vertex="1" parent="1">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-48" value="Consumer Group：消费者组，消费者组内每个消费者负责消费不同分区的数据，提高消费能力，逻辑上的一个订阅者" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=15;align=left;" parent="1" vertex="1">
           <mxGeometry x="60" y="940" width="540" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3dOmKuga5ZePW7HIT0-53" value="Producer：生产者" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=15;align=left;" vertex="1" parent="1">
+        <mxCell id="Tj3dOmKuga5ZePW7HIT0-53" value="Producer：生产者" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=15;align=left;" parent="1" vertex="1">
           <mxGeometry x="60" y="870" width="540" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0bYnW9gFffl5PWVSmFmq-1" value="有序&lt;br&gt;1.Kafka中单个Partition内部，一定是有序的&lt;br&gt;2.Kafka中单个Topic当中分部到不同的Partition中的数据，是不一定有序的&lt;br&gt;如何保证Topic的数据是全局有序的&lt;br&gt;1.设置该Topic只有一个Partition即可保证&lt;br&gt;2." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=15;align=left;" vertex="1" parent="1">
+        <mxCell id="0bYnW9gFffl5PWVSmFmq-1" value="有序&lt;br&gt;1.Kafka中单个Partition内部，一定是有序的&lt;br&gt;2.Kafka中单个Topic当中分部到不同的Partition中的数据，是不一定有序的&lt;br&gt;如何保证Topic的数据是全局有序的&lt;br&gt;1.设置该Topic只有一个Partition即可保证&lt;br&gt;2." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=15;align=left;" parent="1" vertex="1">
           <mxGeometry x="60" y="1010" width="540" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="0bYnW9gFffl5PWVSmFmq-2" value="防止重复消费&lt;br&gt;Kafka的消息根据offset，记录消息消费到哪里，consumer消费数据之后会给Kafka自动提交一个offset的值避免重复消费&lt;br&gt;1.如果在offset提交之前consumer出现了问题可能会导致重复消费的问题&lt;br&gt;2.Partition Balance 机制把多个Balance均匀分配给 consumer group中的多个consumer，如果kafka在默认的5分钟之内没办法处理完一批消息的话会触发Kafka的Rebalance机制，导致自动提交失败，从未提交的offset上重新开始消费&lt;br&gt;&lt;br&gt;处理方法&lt;br&gt;1.提高消费端的处理性能，或者异步处理问题&lt;br&gt;2.减少一次性从broker中取出的数据量&lt;br&gt;3.把消息的唯一id存到redis中，做一个去重的操作" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="0bYnW9gFffl5PWVSmFmq-2" value="防止重复消费&lt;br&gt;Kafka的消息根据offset，记录消息消费到哪里，consumer消费数据之后会给Kafka自动提交一个offset的值避免重复消费&lt;br&gt;1.如果在offset提交之前consumer出现了问题可能会导致重复消费的问题&lt;br&gt;2.Partition Balance 机制把多个Balance均匀分配给 consumer group中的多个consumer，如果kafka在默认的5分钟之内没办法处理完一批消息的话会触发Kafka的Rebalance机制，导致自动提交失败，从未提交的offset上重新开始消费&lt;br&gt;&lt;br&gt;处理方法&lt;br&gt;1.提高消费端的处理性能，或者异步处理问题&lt;br&gt;2.减少一次性从broker中取出的数据量&lt;br&gt;3.把消息的唯一id存到redis中，做一个去重的操作" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="360" y="20" width="440" height="200" as="geometry" />
         </mxCell>
       </root>
@@ -2919,13 +2919,13 @@
           <mxGeometry x="540" y="-310" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HHlMXqKSPNWDc_goAv9s-53" value="1、高性能：性能体现了系统的并行处理能力，在有限的硬件投入下，提高性能意味着节省成本。同时，性能也反映了用户体验，响应时间分别是100毫秒和1秒，给用户的感受是完全不同的。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=12;align=left;size=11;" vertex="1" parent="1">
-          <mxGeometry x="660" y="-390" width="390" height="50" as="geometry" />
+          <mxGeometry x="660" y="-350" width="1010" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HHlMXqKSPNWDc_goAv9s-54" value="2、高可用：表示系统可以正常服务的时间。一个全年不停机、无故障；另一个隔三差五出线上事故、宕机，用户肯定选择前者。另外，如果系统只能做到90%可用，也会大大拖累业务。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=12;align=left;size=11;" vertex="1" parent="1">
-          <mxGeometry x="660" y="-317.5" width="390" height="55" as="geometry" />
+          <mxGeometry x="660" y="-303.75" width="990" height="27.5" as="geometry" />
         </mxCell>
         <mxCell id="HHlMXqKSPNWDc_goAv9s-55" value="3、高扩展：表示系统的扩展能力，流量高峰时能否在短时间内完成扩容，更平稳地承接峰值流量，比如双11活动、明星离婚等热点事件。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=12;align=left;size=11;" vertex="1" parent="1">
-          <mxGeometry x="660" y="-250" width="380" height="40" as="geometry" />
+          <mxGeometry x="660" y="-260" width="730" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HHlMXqKSPNWDc_goAv9s-61" value="&lt;div&gt;高性能指标&lt;/div&gt;&lt;div&gt;通过性能指标可以度量目前存在的性能问题，同时作为性能优化的评估依据。一般来说，会采用一段时间内的接口响应时间作为指标。&lt;/div&gt;&lt;div&gt;1、平均响应时间：最常用，但是缺陷很明显，对于慢请求不敏感。比如1万次请求，其中9900次是1ms，100次是100ms，则平均响应时间为1.99ms，虽然平均耗时仅增加了0.99ms，但是1%请求的响应时间已经增加了100倍。&lt;/div&gt;&lt;div&gt;2、TP90、TP99等分位值：将响应时间按照从小到大排序，TP90表示排在第90分位的响应时间， 分位值越大，对慢请求越敏感。&lt;/div&gt;&lt;div&gt;3、QPS吞吐量：和响应时间呈反比，比如响应时间是1ms，则吞吐量为每秒1000次。&lt;/div&gt;&lt;div&gt;通常，设定性能目标时会兼顾吞吐量和响应时间，比如这样表述：在每秒1万次请求下，AVG控制在50ms以下，TP99控制在100ms以下。对于高并发系统，AVG和TP分位值必须同时要考虑。&lt;/div&gt;&lt;div&gt;另外，从用户体验角度来看，200毫秒被认为是第一个分界点，用户感觉不到延迟，1秒是第二个分界点，用户能感受到延迟，但是可以接受。&lt;/div&gt;&lt;div style=&quot;&quot;&gt;因此，对于一个健康的高并发系统，TP99应该控制在200毫秒以内，TP999或者TP9999应该控制在1秒以内。&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=12;align=left;size=12;" vertex="1" parent="1">
           <mxGeometry x="660" y="-190" width="1200" height="120" as="geometry" />
