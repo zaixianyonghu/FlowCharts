@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-12T02:29:40.252Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="wMFLOPPuJyZT2qbiqGFR" version="20.0.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-07-12T10:34:22.971Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="18pj7KnromFQb-iq9-R4" version="20.0.4" type="github" pages="9">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
-    <mxGraphModel dx="1664" dy="3064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="1424" dy="3098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1017,7 +1017,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Yuk0tkyHEU3-n-yhUi4G" name="java基础2">
-    <mxGraphModel dx="1424" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="1424" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1070,7 +1070,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="oJ-X6VxfsC7BWKUwmhvF" name="java基础3">
-    <mxGraphModel dx="1424" dy="3064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1424" dy="3098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1522,6 +1522,9 @@
         </mxCell>
         <mxCell id="F94FngbtSI2dwJDcfvkJ-52" value="&lt;div&gt;Java中每一个对象都可以作为锁，这是synchronized实现同步的基础：&lt;/div&gt;&lt;div&gt;1、普通同步方法，锁是当前实例对象（this）&lt;/div&gt;&lt;div&gt;2、静态同步方法，锁是当前类的class对象&amp;nbsp;&lt;/div&gt;&lt;div&gt;3、同步代码块，锁是括号里面的对象 （自己在代码块中会使用到的对象）&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="230" y="-280" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OFfucPFR5F8t4u6TexwZ-1" value="CyclicBarrier 、CountDownLatch 、Semaphore" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-160" width="280" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
