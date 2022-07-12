@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-12T12:20:29.060Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="lujAR_TEoeFff7rxO8Ap" version="20.0.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-07-12T12:25:43.691Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="OhXLmO_iSm4FLFqpaj02" version="20.0.4" type="github" pages="9">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1424" dy="3098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -2675,8 +2675,14 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HHlMXqKSPNWDc_goAv9s-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="tAtObS8HBFfpvOoRc8v1-2" target="tAtObS8HBFfpvOoRc8v1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHlMXqKSPNWDc_goAv9s-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="tAtObS8HBFfpvOoRc8v1-2" target="tAtObS8HBFfpvOoRc8v1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="tAtObS8HBFfpvOoRc8v1-2" value="&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot; id=&quot;iysV-1657529086982&quot;&gt;&lt;span style=&quot;font-weight: bold;font-size: 18px;&quot;&gt;高并发的实践方案有哪些？&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="280" width="220" height="40" as="geometry" />
+          <mxGeometry x="100" y="700" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tAtObS8HBFfpvOoRc8v1-3" value="&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot; id=&quot;iysV-1657529086982&quot;&gt;&lt;span style=&quot;font-weight: bold;font-size: 18px;&quot;&gt;如何理解高并发&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="140" height="30" as="geometry" />
@@ -2685,10 +2691,19 @@
           <mxGeometry x="40" y="160" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tAtObS8HBFfpvOoRc8v1-5" value="通用的设计方法" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HHlMXqKSPNWDc_goAv9s-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="tAtObS8HBFfpvOoRc8v1-6" target="tAtObS8HBFfpvOoRc8v1-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHlMXqKSPNWDc_goAv9s-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="tAtObS8HBFfpvOoRc8v1-6" target="HHlMXqKSPNWDc_goAv9s-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHlMXqKSPNWDc_goAv9s-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="tAtObS8HBFfpvOoRc8v1-6" target="HHlMXqKSPNWDc_goAv9s-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tAtObS8HBFfpvOoRc8v1-6" value="具体的实践方案" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="350" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="1139" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tAtObS8HBFfpvOoRc8v1-7" value="高性能的实践方案" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="350" width="120" height="60" as="geometry" />
@@ -2741,35 +2756,47 @@
         <mxCell id="tAtObS8HBFfpvOoRc8v1-24" value="&lt;div&gt;锁选择，读多写少的场景用乐观锁，或者考虑通过分段锁的方式减少锁冲突。上述方案无外乎从计算和 IO 两个维度考虑所有可能的优化点，需要有配套的监控系统实时了解当前的性能表现，并支撑你进行性能瓶颈分析，然后再遵循二八原则，抓主要矛盾进行优化。&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="1040" width="720" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HHlMXqKSPNWDc_goAv9s-1" value="高可用的实践方案&lt;br&gt;&lt;span style=&quot;font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, &amp;quot;PingFang SC&amp;quot;, Cambria, Cochin, Georgia, Times, &amp;quot;Times New Roman&amp;quot;, serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;高可用的方案主要从冗余、取舍、系统运维3个方向考虑，同时需要有配套的值班机制和故障处理流程，当出现线上问题时，可及时跟进处理。&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="440" y="1240" width="240" height="120" as="geometry" />
+        <mxCell id="HHlMXqKSPNWDc_goAv9s-1" value="高可用的实践方案&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, &amp;quot;PingFang SC&amp;quot;, Cambria, Cochin, Georgia, Times, &amp;quot;Times New Roman&amp;quot;, serif; font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;高可用的方案主要从冗余、取舍、系统运维3个方向考虑，同时需要有配套的值班机制和故障处理流程，当出现线上问题时，可及时跟进处理。&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1240" width="120" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="HHlMXqKSPNWDc_goAv9s-2" value="&lt;span style=&quot;font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, &amp;quot;PingFang SC&amp;quot;, Cambria, Cochin, Georgia, Times, &amp;quot;Times New Roman&amp;quot;, serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;对等节点的故障转移，Nginx和服务治理框架均支持一个节点失败后访问另一个节点。&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="720" y="1169" width="720" height="30" as="geometry" />
+        <mxCell id="HHlMXqKSPNWDc_goAv9s-2" value="&lt;span style=&quot;font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, &amp;quot;PingFang SC&amp;quot;, Cambria, Cochin, Georgia, Times, &amp;quot;Times New Roman&amp;quot;, serif; font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;对等节点的故障转移，Nginx和服务治理框架均支持一个节点失败后访问另一个节点。&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1169" width="460" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HHlMXqKSPNWDc_goAv9s-3" value="&lt;span style=&quot;font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, &amp;quot;PingFang SC&amp;quot;, Cambria, Cochin, Georgia, Times, &amp;quot;Times New Roman&amp;quot;, serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;非对等节点的故障转移，通过心跳检测并实施主备切换（比如redis的哨兵模式或者集群模式、MySQL的主从切换等）&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="720" y="1230" width="830" height="30" as="geometry" />
+        <mxCell id="HHlMXqKSPNWDc_goAv9s-3" value="&lt;span style=&quot;font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, &amp;quot;PingFang SC&amp;quot;, Cambria, Cochin, Georgia, Times, &amp;quot;Times New Roman&amp;quot;, serif; font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;非对等节点的故障转移，通过心跳检测并实施主备切换（比如redis的哨兵模式或者集群模式、MySQL的主从切换等）&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1230" width="630" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HHlMXqKSPNWDc_goAv9s-4" value="&lt;span style=&quot;font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, &amp;quot;PingFang SC&amp;quot;, Cambria, Cochin, Georgia, Times, &amp;quot;Times New Roman&amp;quot;, serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;接口层面的超时设置、重试策略和幂等设计。&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="720" y="1290" width="720" height="30" as="geometry" />
+        <mxCell id="HHlMXqKSPNWDc_goAv9s-4" value="&lt;span style=&quot;font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, &amp;quot;PingFang SC&amp;quot;, Cambria, Cochin, Georgia, Times, &amp;quot;Times New Roman&amp;quot;, serif; font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;接口层面的超时设置、重试策略和幂等设计。&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1290" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HHlMXqKSPNWDc_goAv9s-5" value="&lt;span style=&quot;font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, &amp;quot;PingFang SC&amp;quot;, Cambria, Cochin, Georgia, Times, &amp;quot;Times New Roman&amp;quot;, serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;降级处理：保证核心服务，牺牲非核心服务，必要时进行熔断；或者核心链路出问题时，有备选链路。&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="720" y="1350" width="770" height="30" as="geometry" />
+        <mxCell id="HHlMXqKSPNWDc_goAv9s-5" value="&lt;span style=&quot;font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, &amp;quot;PingFang SC&amp;quot;, Cambria, Cochin, Georgia, Times, &amp;quot;Times New Roman&amp;quot;, serif; font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;降级处理：保证核心服务，牺牲非核心服务，必要时进行熔断；或者核心链路出问题时，有备选链路。&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1350" width="550" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HHlMXqKSPNWDc_goAv9s-6" value="&lt;span style=&quot;font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, &amp;quot;PingFang SC&amp;quot;, Cambria, Cochin, Georgia, Times, &amp;quot;Times New Roman&amp;quot;, serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;MQ场景的消息可靠性保证，包括producer端的重试机制、broker侧的持久化、consumer端的ack机制等。&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="720" y="1470" width="770" height="30" as="geometry" />
+        <mxCell id="HHlMXqKSPNWDc_goAv9s-6" value="&lt;span style=&quot;font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, &amp;quot;PingFang SC&amp;quot;, Cambria, Cochin, Georgia, Times, &amp;quot;Times New Roman&amp;quot;, serif; font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;MQ场景的消息可靠性保证，包括producer端的重试机制、broker侧的持久化、consumer端的ack机制等。&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1470" width="560" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HHlMXqKSPNWDc_goAv9s-7" value="&lt;span style=&quot;font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, &amp;quot;PingFang SC&amp;quot;, Cambria, Cochin, Georgia, Times, &amp;quot;Times New Roman&amp;quot;, serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;限流处理：对超过系统处理能力的请求直接拒绝或者返回错误码。&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="720" y="1410" width="770" height="30" as="geometry" />
+        <mxCell id="HHlMXqKSPNWDc_goAv9s-7" value="&lt;span style=&quot;font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, &amp;quot;PingFang SC&amp;quot;, Cambria, Cochin, Georgia, Times, &amp;quot;Times New Roman&amp;quot;, serif; font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;限流处理：对超过系统处理能力的请求直接拒绝或者返回错误码。&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1410" width="360" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HHlMXqKSPNWDc_goAv9s-8" value="&lt;span style=&quot;font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, &amp;quot;PingFang SC&amp;quot;, Cambria, Cochin, Georgia, Times, &amp;quot;Times New Roman&amp;quot;, serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;灰度发布，能支持按机器维度进行小流量部署，观察系统日志和业务指标，等运行平稳后再推全量。&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="720" y="1540" width="770" height="30" as="geometry" />
+        <mxCell id="HHlMXqKSPNWDc_goAv9s-8" value="&lt;span style=&quot;font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, &amp;quot;PingFang SC&amp;quot;, Cambria, Cochin, Georgia, Times, &amp;quot;Times New Roman&amp;quot;, serif; font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;灰度发布，能支持按机器维度进行小流量部署，观察系统日志和业务指标，等运行平稳后再推全量。&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1540" width="530" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HHlMXqKSPNWDc_goAv9s-9" value="&lt;span style=&quot;font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, &amp;quot;PingFang SC&amp;quot;, Cambria, Cochin, Georgia, Times, &amp;quot;Times New Roman&amp;quot;, serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;监控报警：全方位的监控体系，包括最基础的CPU、内存、磁盘、网络的监控，以及Web服务器、JVM、数据库、各类中间件的监控和业务指标的监控。&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="720" y="1600" width="1070" height="30" as="geometry" />
+        <mxCell id="HHlMXqKSPNWDc_goAv9s-9" value="&lt;span style=&quot;font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, &amp;quot;PingFang SC&amp;quot;, Cambria, Cochin, Georgia, Times, &amp;quot;Times New Roman&amp;quot;, serif; font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;监控报警：全方位的监控体系，包括最基础的CPU、内存、磁盘、网络的监控，以及Web服务器、JVM、数据库、各类中间件的监控和业务指标的监控。&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1600" width="810" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HHlMXqKSPNWDc_goAv9s-10" value="&lt;span style=&quot;font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, &amp;quot;PingFang SC&amp;quot;, Cambria, Cochin, Georgia, Times, &amp;quot;Times New Roman&amp;quot;, serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;灾备演练：类似当前的“混沌工程”，对系统进行一些破坏性手段，观察局部故障是否会引起可用性问题。&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="720" y="1660" width="740" height="30" as="geometry" />
+        <mxCell id="HHlMXqKSPNWDc_goAv9s-10" value="&lt;span style=&quot;font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, &amp;quot;PingFang SC&amp;quot;, Cambria, Cochin, Georgia, Times, &amp;quot;Times New Roman&amp;quot;, serif; font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;灾备演练：类似当前的“混沌工程”，对系统进行一些破坏性手段，观察局部故障是否会引起可用性问题。&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1660" width="560" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HHlMXqKSPNWDc_goAv9s-12" value="高扩展的实践方案" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HHlMXqKSPNWDc_goAv9s-13" value="合理的分层架构：比如上面谈到的互联网最常见的分层架构，另外还能进一步按照数据访问层、业务逻辑层对微服务做更细粒度的分层（但是需要评估性能，会存在网络多一跳的情况）。" style="whiteSpace=wrap;html=1;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1780" width="1010" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HHlMXqKSPNWDc_goAv9s-14" value="存储层的拆分：按照业务维度做垂直拆分、按照数据特征维度进一步做水平拆分（分库分表）。" style="whiteSpace=wrap;html=1;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1840" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HHlMXqKSPNWDc_goAv9s-15" value="业务层的拆分：最常见的是按照业务维度拆（比如电商场景的商品服务、订单服务等），也可以按照核心接口和非核心接口拆，还可以按照请求源拆（比如To C和To B，APP和H5）。" style="whiteSpace=wrap;html=1;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1920" width="970" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
