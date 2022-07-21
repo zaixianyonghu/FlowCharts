@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-19T11:36:33.526Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="Tui9Mb0jR6E-QJjF3qXt" version="20.1.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-07-21T15:17:58.840Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="gBDjTI8dfWFxnni0eP2H" version="20.1.1" type="github" pages="9">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1424" dy="3064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -1017,7 +1017,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Yuk0tkyHEU3-n-yhUi4G" name="java基础2">
-    <mxGraphModel dx="1424" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="1424" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1686,6 +1686,33 @@
         </mxCell>
         <mxCell id="nTDN-L7x6VQaeQ5BDyei-39" value="老师只是讲了自己对spring非常熟悉的理解，也就是结论，但是没有讲自己用的是什么方法，途径才理解到这种程度，问下老师理解到这种程度哟了多久时间，最有效的阅读源码的思路" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" parent="1" vertex="1">
           <mxGeometry x="10" y="840" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uORjheHdng0L5fd8nulH-11" value="事务的传播机制" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="10" y="940" width="1260" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="uORjheHdng0L5fd8nulH-2" value="&lt;div&gt;REQUIRED(Spring默认的事务传播类型 required：需要、依赖、依靠)：如果当前没有事务，则自己新建一个事务，如果当前存在事务则加入这个事务&lt;/div&gt;&lt;div&gt;当A调用B的时候：如果A中没有事务，B中有事务，那么B会新建一个事务；如果A中也有事务、B中也有事务，那么B会加入到A中去，变成一个事务，这时，要么都成功，要么都失败。（假如A中有2个SQL，B中有两个SQL，那么这四个SQL会变成一个SQL，要么都成功，要么都失败&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;align=left;" vertex="1" parent="uORjheHdng0L5fd8nulH-11">
+          <mxGeometry y="40" width="830" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uORjheHdng0L5fd8nulH-3" value="&lt;div&gt;REQUIRES_NEW（requires_new：需要新建）:创建一个新事务，如果存在当前事务，则挂起该事务。&lt;/div&gt;&lt;div&gt;B会新建一个事务，A和B事务互不干扰，他们出现问题回滚的时候，也都只回滚自己的事务；&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;align=left;" vertex="1" parent="uORjheHdng0L5fd8nulH-11">
+          <mxGeometry y="110" width="560" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uORjheHdng0L5fd8nulH-4" value="&lt;div&gt;SUPPORTS（supports：支持;拥护）:当前存在事务，则加入当前事务，如果当前没有事务，就以非事务方法执行&lt;/div&gt;&lt;div&gt;如果A中有事务，则B方法的事务加入A事务中，成为一个事务（一起成功，一起失败），如果A中没有事务，那么B就以非事务方式运行（执行完直接提交）；&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;align=left;" vertex="1" parent="uORjheHdng0L5fd8nulH-11">
+          <mxGeometry y="160" width="840" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uORjheHdng0L5fd8nulH-5" value="&lt;div&gt;NOT_SUPPORTED（not supported：不支持）:以非事务方式执行,如果当前存在事务，则挂起当前事务&lt;/div&gt;&lt;div&gt;被调用者B会以非事务方式运行（直接提交），如果当前有事务，也就是A中有事务，A会被挂起（不执行，等待B执行完，返回）；A和B出现异常需要回滚，互不影响&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;align=left;" vertex="1" parent="uORjheHdng0L5fd8nulH-11">
+          <mxGeometry y="210" width="880" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uORjheHdng0L5fd8nulH-6" value="&lt;div&gt;MANDATORY（mandatory：强制性的）:当前存在事务，则加入当前事务，如果当前事务不存在，则抛出异常。&lt;/div&gt;&lt;div&gt;如果A中有事务，则B方法的事务加入A事务中，成为一个事务（一起成功，一起失败）；如果A中没有事务，B中有事务，那么B就直接抛异常了，意思是B必须要支持回滚的事务中运行&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;align=left;" vertex="1" parent="uORjheHdng0L5fd8nulH-11">
+          <mxGeometry y="260" width="980" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uORjheHdng0L5fd8nulH-7" value="&lt;div&gt;NEVER（never：从不）: 如果当前没有事务存在，就以非事务方式执行；如果有，就抛出异常。就是B从不以事务方式运行&lt;/div&gt;&lt;div&gt;A中不能有事务，如果没有，B就以非事务方式执行，如果A存在事务，那么直接抛异常&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;align=left;" vertex="1" parent="uORjheHdng0L5fd8nulH-11">
+          <mxGeometry y="320" width="660" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uORjheHdng0L5fd8nulH-8" value="&lt;div&gt;NESTED（nested：嵌套的）嵌套事务:如果当前事务存在，则在嵌套事务中执行，否则REQUIRED的操作一样(开启一个事务)&lt;/div&gt;&lt;div&gt;如果A中没有事务，那么B创建一个事务执行，如果A中也有事务，那么B会会把事务嵌套在里面。&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;align=left;" vertex="1" parent="uORjheHdng0L5fd8nulH-11">
+          <mxGeometry y="380" width="680" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uORjheHdng0L5fd8nulH-10" value="&lt;div style=&quot;color: rgb(29, 53, 87);&quot;&gt;什么叫嵌套呢？&lt;/div&gt;&lt;div style=&quot;color: rgb(29, 53, 87);&quot;&gt;A是父事务，B是子事务&lt;/div&gt;&lt;div style=&quot;color: rgb(29, 53, 87);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(29, 53, 87);&quot;&gt;NESTED嵌套事务 和REQUIRES_NEW的区别&lt;/div&gt;&lt;div style=&quot;color: rgb(29, 53, 87);&quot;&gt;REQUIRES_NEw是新建一个事务并且新开启的这个事务与原有事务无关，而NESTED则是当前存在事务时（我们把当前事务称之为父事务）会开启一个嵌套事务（称之为一个子事务)。在NESTED情况下父事务回滚时，子事务也会回滚，而在REQUIRES_NEw情况下，原有事务回滚，不会影响新开启的事务。&lt;/div&gt;&lt;div style=&quot;color: rgb(29, 53, 87);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(29, 53, 87);&quot;&gt;和REQUIRED的区别&lt;/div&gt;&lt;div style=&quot;color: rgb(29, 53, 87);&quot;&gt;REQUIRED情况下，调用方存在事务时，则被调用方和调用方使用同一事务，那么被调用方出现异常时，由于共用一个事务，所以无论调用方是否catch其异常，事务都会回滚而在NESTED情况下，被调用方发生异常时，调用方可以catch其异常，这样只有子事务回滚，父事务不受影响&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;size=12;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="uORjheHdng0L5fd8nulH-11">
+          <mxGeometry x="720" y="360" width="520" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -2484,7 +2511,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xZkLqHY_rwOoSJom6NkQ" name="消息队列">
-    <mxGraphModel dx="1424" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1424" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
