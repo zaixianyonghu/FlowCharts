@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-21T15:17:58.840Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="gBDjTI8dfWFxnni0eP2H" version="20.1.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-07-21T15:18:19.376Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="YLBBOudA3CfN83wKIQ2X" version="20.1.1" type="github" pages="9">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1424" dy="3064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -1688,7 +1688,7 @@
           <mxGeometry x="10" y="840" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uORjheHdng0L5fd8nulH-11" value="事务的传播机制" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="10" y="940" width="1260" height="610" as="geometry" />
+          <mxGeometry x="10" y="940" width="1260" height="580" as="geometry" />
         </mxCell>
         <mxCell id="uORjheHdng0L5fd8nulH-2" value="&lt;div&gt;REQUIRED(Spring默认的事务传播类型 required：需要、依赖、依靠)：如果当前没有事务，则自己新建一个事务，如果当前存在事务则加入这个事务&lt;/div&gt;&lt;div&gt;当A调用B的时候：如果A中没有事务，B中有事务，那么B会新建一个事务；如果A中也有事务、B中也有事务，那么B会加入到A中去，变成一个事务，这时，要么都成功，要么都失败。（假如A中有2个SQL，B中有两个SQL，那么这四个SQL会变成一个SQL，要么都成功，要么都失败&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;align=left;" vertex="1" parent="uORjheHdng0L5fd8nulH-11">
           <mxGeometry y="40" width="830" height="50" as="geometry" />
