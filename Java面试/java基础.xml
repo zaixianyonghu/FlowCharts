@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-21T15:21:16.213Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="7IWiO9mLbzUVyGGRmmTh" version="20.1.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-07-21T15:21:36.932Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="gd4mVnvqTzObNms0GLtq" version="20.1.1" type="github" pages="9">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1424" dy="3064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -1687,7 +1687,7 @@
         <mxCell id="nTDN-L7x6VQaeQ5BDyei-39" value="老师只是讲了自己对spring非常熟悉的理解，也就是结论，但是没有讲自己用的是什么方法，途径才理解到这种程度，问下老师理解到这种程度哟了多久时间，最有效的阅读源码的思路" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" parent="1" vertex="1">
           <mxGeometry x="10" y="840" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uORjheHdng0L5fd8nulH-11" value="事务的传播机制" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="uORjheHdng0L5fd8nulH-11" value="事务的传播机制" style="swimlane;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="10" y="980" width="980" height="660" as="geometry" />
         </mxCell>
         <mxCell id="uORjheHdng0L5fd8nulH-2" value="&lt;div&gt;REQUIRED(Spring默认的事务传播类型 required：需要、依赖、依靠)：如果当前没有事务，则自己新建一个事务，如果当前存在事务则加入这个事务&lt;/div&gt;&lt;div&gt;当A调用B的时候：如果A中没有事务，B中有事务，那么B会新建一个事务；如果A中也有事务、B中也有事务，那么B会加入到A中去，变成一个事务，这时，要么都成功，要么都失败。（假如A中有2个SQL，B中有两个SQL，那么这四个SQL会变成一个SQL，要么都成功，要么都失败&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;strokeColor=#b46504;fillColor=#fad7ac;align=left;" vertex="1" parent="uORjheHdng0L5fd8nulH-11">
