@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-27T14:35:41.656Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="-kGThyUDG1RTYNpa9rpk" version="20.2.0" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-07-31T09:19:54.203Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="_PeNFVvZpPeLk0RTyAz9" version="20.2.2" type="github" pages="9">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
-    <mxGraphModel dx="1424" dy="3064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="1664" dy="3064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1801,7 +1801,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="624PNGoYzg5gC-qoznSU" name="mysql">
-    <mxGraphModel dx="1424" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1664" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1936,8 +1936,8 @@
         <mxCell id="qXpYdqf6eJaAgNHMgzLr-74" value="更新丢失/脏写" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" parent="1" vertex="1">
           <mxGeometry x="150" y="120" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qXpYdqf6eJaAgNHMgzLr-75" value="两次读之间有别的事务新增了数据，把表中值为1的数据更新成2，这是其他事务新增了值为1的数据，就会有问题" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;size=14;align=left;" parent="1" vertex="1">
-          <mxGeometry x="280" y="300" width="310" height="40" as="geometry" />
+        <mxCell id="qXpYdqf6eJaAgNHMgzLr-75" value="两次读之间有别的事务新增了数据，把表中所有值为1的数据更新成2，这时候其他事务新增了值为1的数据，就会有问题" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;size=14;align=left;" parent="1" vertex="1">
+          <mxGeometry x="280" y="300" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qXpYdqf6eJaAgNHMgzLr-97" value="标准实现&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;事务对当前被读取的数据不加锁；&lt;/div&gt;&lt;div&gt;事务在更新某数据的瞬间（就是发生更新的瞬间），必须先对其加行级共享锁，直到事务结束才释放。&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry x="360" y="500" width="550" height="50" as="geometry" />
