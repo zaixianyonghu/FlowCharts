@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-31T09:19:54.203Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="_PeNFVvZpPeLk0RTyAz9" version="20.2.2" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-06-19T06:56:22.148Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="35iLh73VH4nO81Yi8pY9" version="21.4.0" type="github" pages="10">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
-    <mxGraphModel dx="1664" dy="3064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="2887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2701,7 +2701,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gI8YaqD_mrj_LSRWMxkb" name="高并发">
-    <mxGraphModel dx="1424" dy="1895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="1718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2995,6 +2995,41 @@
         </mxCell>
         <mxCell id="1601TDZTyjn2ugvSqMQX-1" value="&lt;div&gt;高并发意味着大流量，需要运用技术手段抵抗流量的冲击，这些手段好比操作流量，能让流量更平稳地被系统所处理，带给用户更好的体验。&lt;/div&gt;&lt;div&gt;我们常见的高并发场景有：淘宝的双11、春运时的抢票、微博大V的热点新闻等。除了这些典型事情，每秒几十万请求的秒杀系统、每天千万级的订单系统、每天亿级日活的信息流系统等，都可以归为高并发。&lt;/div&gt;&lt;div&gt;很显然，上面谈到的高并发场景，并发量各不相同，那到底多大并发才算高并发呢？&lt;/div&gt;&lt;div&gt;1、不能只看数字，要看具体的业务场景。不能说10W QPS的秒杀是高并发，而1W QPS的信息流就不是高并发。信息流场景涉及复杂的推荐模型和各种人工策略，它的业务逻辑可能比秒杀场景复杂10倍不止。因此，不在同一个维度，没有任何比较意义。&lt;/div&gt;&lt;div&gt;2、业务都是从0到1做起来的，并发量和QPS只是参考指标，最重要的是：在业务量逐渐变成原来的10倍、100倍的过程中，你是否用到了高并发的处理方法去演进你的系统，从架构设计、编码实现、甚至产品方案等维度去预防和解决高并发引起的问题？而不是一味的升级硬件、加机器做水平扩展。&lt;/div&gt;&lt;div&gt;此外，各个高并发场景的业务特点完全不同：有读多写少的信息流场景、有读多写多的交易场景，那是否有通用的技术方案解决不同场景的高并发问题呢？&lt;/div&gt;&lt;div&gt;我觉得大的思路可以借鉴，别人的方案也可以参考，但是真正落地过程中，细节上还会有无数的坑。另外，由于软硬件环境、技术栈、以及产品逻辑都没法做到完全一致，这些都会导致同样的业务场景，就算用相同的技术方案也会面临不同的问题，这些坑还得一个个趟。&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=12;size=12;align=left;" parent="1" vertex="1">
           <mxGeometry x="520" y="-510" width="1610" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="OgF_FyJfp4NRJ9i7hCB1" name="设计模式">
+    <mxGraphModel dx="1290" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AlB5qHK6utZYQWjQ-VoS-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AlB5qHK6utZYQWjQ-VoS-1" target="AlB5qHK6utZYQWjQ-VoS-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlB5qHK6utZYQWjQ-VoS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlB5qHK6utZYQWjQ-VoS-1" target="AlB5qHK6utZYQWjQ-VoS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlB5qHK6utZYQWjQ-VoS-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AlB5qHK6utZYQWjQ-VoS-1" target="AlB5qHK6utZYQWjQ-VoS-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlB5qHK6utZYQWjQ-VoS-1" value="设计模式" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AlB5qHK6utZYQWjQ-VoS-2" value="观察者Observer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AlB5qHK6utZYQWjQ-VoS-3" value="创建型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AlB5qHK6utZYQWjQ-VoS-4" value="结构型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AlB5qHK6utZYQWjQ-VoS-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AlB5qHK6utZYQWjQ-VoS-5" target="AlB5qHK6utZYQWjQ-VoS-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlB5qHK6utZYQWjQ-VoS-5" value="行为型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
