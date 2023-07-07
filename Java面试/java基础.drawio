@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-07T02:12:25.571Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="7Dqp_-1EjNsAM4qpz9SV" version="21.5.0" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-07-07T02:38:31.989Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="nJvPxDl1daP6HO_xUWM8" version="21.5.0" type="github" pages="10">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="2580" dy="3436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -3000,7 +3000,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OgF_FyJfp4NRJ9i7hCB1" name="设计模式">
-    <mxGraphModel dx="1290" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1202" dy="1724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3022,8 +3022,11 @@
         <mxCell id="AlB5qHK6utZYQWjQ-VoS-2" value="观察者Observer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="1400" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="_pSaEZiJpT-rebftPejI-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlB5qHK6utZYQWjQ-VoS-3" target="_pSaEZiJpT-rebftPejI-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="AlB5qHK6utZYQWjQ-VoS-3" value="创建型" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="120" width="40" height="40" as="geometry" />
+          <mxGeometry x="120" y="-290" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="v-4UgeruGBopCO8A77vu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AlB5qHK6utZYQWjQ-VoS-4" target="v-4UgeruGBopCO8A77vu-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -3174,6 +3177,30 @@
         </mxCell>
         <mxCell id="B6nEGZxEdVauwyqoMVKi-1" value="策略模式&lt;br&gt;Strategy" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="1560" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_pSaEZiJpT-rebftPejI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_pSaEZiJpT-rebftPejI-1" target="_pSaEZiJpT-rebftPejI-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_pSaEZiJpT-rebftPejI-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_pSaEZiJpT-rebftPejI-1" target="_pSaEZiJpT-rebftPejI-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_pSaEZiJpT-rebftPejI-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_pSaEZiJpT-rebftPejI-1" target="_pSaEZiJpT-rebftPejI-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_pSaEZiJpT-rebftPejI-1" value="工厂方法/简单工厂&lt;br&gt;Factory Method" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-290" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_pSaEZiJpT-rebftPejI-3" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://refactoringguru.cn/images/patterns/diagrams/factory-method/structure.png?id=4cba0803f42517cfe8548c9bc7dc4c9b;" vertex="1" parent="1">
+          <mxGeometry x="960" y="-504.5" width="520" height="299" as="geometry" />
+        </mxCell>
+        <mxCell id="_pSaEZiJpT-rebftPejI-5" value="其在父类中提供一个创建对象的方法，&amp;nbsp;允许子类决定实例化对象的类型。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="-290" width="235" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_pSaEZiJpT-rebftPejI-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_pSaEZiJpT-rebftPejI-10" target="_pSaEZiJpT-rebftPejI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_pSaEZiJpT-rebftPejI-10" value="简单工厂：抽象的创建者，抽象的产品，具体测创建者，具体的产品&lt;br&gt;静态工厂：只需要抽象的工厂，抽象的产品、具体的产品，在抽象的工厂中静态创建具体的产品。&lt;br&gt;https://refactoringguru.cn/images/patterns/diagrams/factory-method/structure.png?id=4cba0803f42517cfe8548c9bc7dc4c9b" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-390" width="520" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
