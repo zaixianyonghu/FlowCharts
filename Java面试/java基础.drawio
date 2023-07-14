@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-14T09:07:46.186Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="cH6BbnA7nMO1F8nE-gW3" version="21.6.1" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-07-14T09:14:38.843Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="sd38lBtzkRR7wzSF_z0w" version="21.6.1" type="github" pages="11">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="1235" dy="2984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -3206,10 +3206,31 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uBcwZWOavv9CA8f2_CIm" name="elastic-search">
-    <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5olt-NED9_JmvdEBcfjM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5olt-NED9_JmvdEBcfjM-4" target="5olt-NED9_JmvdEBcfjM-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5olt-NED9_JmvdEBcfjM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5olt-NED9_JmvdEBcfjM-4" target="5olt-NED9_JmvdEBcfjM-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5olt-NED9_JmvdEBcfjM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5olt-NED9_JmvdEBcfjM-4" target="5olt-NED9_JmvdEBcfjM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5olt-NED9_JmvdEBcfjM-4" value="文档评分机制&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;boost * TF * IDF，当一个查询词在某个文档中出现的频率越高，说明文档的相关性越高，当一个词在所有的文档中出现的频率越高说明相关性越低" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="200" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5olt-NED9_JmvdEBcfjM-5" value="boost&lt;br&gt;权重" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5olt-NED9_JmvdEBcfjM-6" value="tf&lt;br&gt;词频，查询词在文档中出现的频率" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="225" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5olt-NED9_JmvdEBcfjM-7" value="idf&lt;br&gt;逆文档频率，查询词在所有文档出现的频率" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="320" width="230" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
