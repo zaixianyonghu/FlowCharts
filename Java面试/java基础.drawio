@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-14T09:14:38.843Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="sd38lBtzkRR7wzSF_z0w" version="21.6.1" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-07-28T06:31:55.113Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="5_HteqYj4EpW0k65bfvc" version="21.6.5" type="github" pages="11">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
-    <mxGraphModel dx="1235" dy="2984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="3102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1566,14 +1566,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GyFKiCVr4R9SL9WbRrUE" name="Spring1">
-    <mxGraphModel dx="1424" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="1933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="nTDN-L7x6VQaeQ5BDyei-1" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" parent="1" source="nTDN-L7x6VQaeQ5BDyei-2" target="nTDN-L7x6VQaeQ5BDyei-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nTDN-L7x6VQaeQ5BDyei-2" value="bean的实例化(通过反射的方式创建对象，在堆内存中开辟空间，属性值时默认值)" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" parent="1" vertex="1">
+        <mxCell id="nTDN-L7x6VQaeQ5BDyei-2" value="&lt;b&gt;实例化：&lt;/b&gt;bean的实例化(通过反射的方式创建对象，在堆内存中开辟空间，属性值时默认值)" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" parent="1" vertex="1">
           <mxGeometry y="40" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nTDN-L7x6VQaeQ5BDyei-3" value="createBeanInstance" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=0;sketch=0;" parent="1" vertex="1">
@@ -1664,7 +1664,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nTDN-L7x6VQaeQ5BDyei-32" value="赋值操作" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;strokeColor=#10739e;fillColor=#b1ddf0;" parent="nTDN-L7x6VQaeQ5BDyei-29" vertex="1">
-          <mxGeometry x="10" y="100" width="60" height="30" as="geometry" />
+          <mxGeometry x="20" y="100" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nTDN-L7x6VQaeQ5BDyei-33" value="给容器对象属性赋值" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;strokeColor=#10739e;fillColor=#b1ddf0;" parent="nTDN-L7x6VQaeQ5BDyei-29" vertex="1">
           <mxGeometry x="120" y="145" width="120" height="30" as="geometry" />
@@ -1713,6 +1713,9 @@
         </mxCell>
         <mxCell id="uORjheHdng0L5fd8nulH-10" value="&lt;div style=&quot;color: rgb(29, 53, 87);&quot;&gt;什么叫嵌套呢？&lt;/div&gt;&lt;div style=&quot;color: rgb(29, 53, 87);&quot;&gt;A是父事务，B是子事务&lt;/div&gt;&lt;div style=&quot;color: rgb(29, 53, 87);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(29, 53, 87);&quot;&gt;NESTED嵌套事务 和REQUIRES_NEW的区别&lt;/div&gt;&lt;div style=&quot;color: rgb(29, 53, 87);&quot;&gt;REQUIRES_NEw是新建一个事务并且新开启的这个事务与原有事务无关，而NESTED则是当前存在事务时（我们把当前事务称之为父事务）会开启一个嵌套事务（称之为一个子事务)。在NESTED情况下父事务回滚时，子事务也会回滚，而在REQUIRES_NEw情况下，原有事务回滚，不会影响新开启的事务。&lt;/div&gt;&lt;div style=&quot;color: rgb(29, 53, 87);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(29, 53, 87);&quot;&gt;和REQUIRED的区别&lt;/div&gt;&lt;div style=&quot;color: rgb(29, 53, 87);&quot;&gt;REQUIRED情况下，调用方存在事务时，则被调用方和调用方使用同一事务，那么被调用方出现异常时，由于共用一个事务，所以无论调用方是否catch其异常，事务都会回滚而在NESTED情况下，被调用方发生异常时，调用方可以catch其异常，这样只有子事务回滚，父事务不受影响&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;size=12;fillColor=#fff2cc;strokeColor=#d6b656;" parent="uORjheHdng0L5fd8nulH-11" vertex="1">
           <mxGeometry y="440" width="520" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bqyCoiV_stLiZKbVciDg-1" value="&lt;b&gt;Bean定义信息&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry y="-60" width="350" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -3000,7 +3003,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OgF_FyJfp4NRJ9i7hCB1" name="设计模式">
-    <mxGraphModel dx="1750" dy="2084" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="1933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
