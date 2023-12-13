@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-13T08:48:19.260Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="THaZHNuG0QN6xRw5bdHk" version="22.1.7" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-12-13T08:50:15.085Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="bn4Ijn_NJii02rjp0hq2" version="22.1.7" type="github" pages="11">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
     <mxGraphModel dx="2868" dy="3854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -1963,7 +1963,7 @@
         <mxCell id="qXpYdqf6eJaAgNHMgzLr-111" value="mysql实现&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;事务对当前被读取的数据不加锁，且是快照读；&lt;/div&gt;&lt;div&gt;事务在更新某数据的瞬间（就是发生更新的瞬间），必须先对其加行级排他锁（Record，GAP，Next-Key），直到事务结束才释放。&lt;/div&gt;&lt;div&gt;通过间隙锁，在这个级别MySQL就解决了幻读的问题&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="360" y="820" width="550" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qXpYdqf6eJaAgNHMgzLr-114" value="标准实现&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;事务在读取数据时，必须先对其加表级共享锁 ，直到事务结束才释放；&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;事务在更新数据时，必须先对其加表级排他锁 ，直到事务结束才释放&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;。&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
+        <mxCell id="qXpYdqf6eJaAgNHMgzLr-114" value="标准实现&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;事务在读取数据时，必须先对其加行级共享锁 ，直到事务结束才释放；&lt;/div&gt;&lt;div&gt;事务在更新数据时，必须先对其加&lt;span style=&quot;background-color: initial;&quot;&gt;行&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;级排他锁 ，直到事务结束才释放&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;。&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry x="360" y="1030" width="380" height="50" as="geometry" />
         </mxCell>
         <mxCell id="qXpYdqf6eJaAgNHMgzLr-116" value="mysql实现&lt;br&gt;与标准相同" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
