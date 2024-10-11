@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-10-11T02:01:09.929Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" etag="SvG18x8lLrSH-59Mk-kt" version="24.6.4" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2024-10-11T02:16:38.725Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" etag="bgtpmahV_45CobjV0yWD" version="24.6.4" type="github" pages="11">
   <diagram id="RW8c26-HEfVSasyLqWSC" name="java基础1">
-    <mxGraphModel dx="1434" dy="3083" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="1105" dy="2887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1010,8 +1010,8 @@
         <mxCell id="TkRLlW_ukJUAP7FFpI78-8" value="标记整理，多线程并发的，把内存划分为多个区域，各分代不一定是连续的区域，大内存多核系统，" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=12;size=11;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" parent="1" vertex="1">
           <mxGeometry x="690" y="640" width="560" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="FbwhlOnQjOfOB0nP2ZIt-2" value="&lt;div&gt;jps&amp;nbsp; 查看java进程&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;jinfo 查看jvm参数&lt;/div&gt;&lt;div&gt;jinof&amp;nbsp;-flags&amp;nbsp;pid&amp;nbsp;显示全部的配置参数&lt;br&gt;&lt;/div&gt;&lt;div&gt;jinfo&amp;nbsp;-sysprops&amp;nbsp;pid&amp;nbsp;以键值对的方式显示当前Java虚拟机的全部的系统属性&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;jstat PID&lt;/div&gt;&lt;div&gt;(1)查看虚拟机性能统计信息&lt;/div&gt;&lt;div&gt;(2)查看类装载信息&lt;/div&gt;&lt;div&gt;jstat -gcutil pid 2000 5 : 打印pid的垃圾回收情况，2000 毫秒打印，打印5次&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;jstack pid&lt;/div&gt;&lt;div&gt;(1)查看线程堆栈信息，查看死锁&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;jmap -histo pid&lt;/div&gt;&lt;div&gt;查看堆中那些类型的对象占用了多大内存&lt;/div&gt;&lt;div&gt;(1)生成堆转储快照&lt;/div&gt;&lt;div&gt;(2)打印出堆内存相关信息&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;size=13;" parent="1" vertex="1">
-          <mxGeometry x="30" y="2490" width="460" height="280" as="geometry" />
+        <mxCell id="FbwhlOnQjOfOB0nP2ZIt-2" value="&lt;div&gt;jps&amp;nbsp; 查看java进程&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;jinfo 查看jvm参数&lt;/div&gt;&lt;div&gt;jinof&amp;nbsp;-flags&amp;nbsp;pid&amp;nbsp;显示全部的配置参数&lt;br&gt;&lt;/div&gt;&lt;div&gt;jinfo&amp;nbsp;-sysprops&amp;nbsp;pid&amp;nbsp;以键值对的方式显示当前Java虚拟机的全部的系统属性&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;jstat PID&lt;/div&gt;&lt;div&gt;(1)查看虚拟机性能统计信息&lt;/div&gt;&lt;div&gt;(2)查看类装载信息&lt;/div&gt;&lt;div&gt;jstat -gcutil pid 2000 5 : 打印pid的垃圾回收情况，2000 毫秒打印，打印5次&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;jstack pid&lt;/div&gt;&lt;div&gt;(1)查看线程堆栈信息，查看死锁&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;jmap -histo pid&lt;/div&gt;&lt;div&gt;查看堆中那些类型的对象占用了多大内存&lt;/div&gt;&lt;div&gt;(1)生成堆转储快照&lt;/div&gt;&lt;div&gt;(2)打印出堆内存相关信息&lt;br&gt;&lt;br&gt;jmap -dump:format=b,file=/path/to/dump.hprof 12345&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;size=13;" parent="1" vertex="1">
+          <mxGeometry x="30" y="2490" width="460" height="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
